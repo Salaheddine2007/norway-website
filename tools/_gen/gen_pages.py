@@ -87,7 +87,7 @@ def en_pages():
             {"@context": "https://schema.org", "@type": "Product", "name": "IPTV Norway One subscription", "brand": {"@type": "Brand", "name": "IPTV Norway One"},
              "description": "IPTV subscription with Norwegian and Nordic channels in HD for Smart TV, Android TV, Apple TV, phone and computer.",
              "image": BASE + "/assets/og/en-home.png",
-             "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "15.99", "highPrice": "169.99", "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/iptv-subscription-norway/"}},
+             "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "15.99", "highPrice": "169.99", "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/en/iptv-subscription-norway/"}},
             faq_schema(faq)]}
     home = f"""
 <section class="hero">
@@ -142,7 +142,7 @@ def en_pages():
 
 <section class="sec">
   <div class="wrap measure">
-    <p>This page is written for anyone searching for IPTV Norway who wants to know what they actually get. We go through the channels, the prices, which screens work and how to get started. We also tell you when we are not the right choice. Prefer to read in Norwegian? Go to the <a href="/no/" hreflang="nb" lang="nb">Norwegian version</a>.</p>
+    <p>This page is written for anyone searching for IPTV Norway who wants to know what they actually get. We go through the channels, the prices, which screens work and how to get started. We also tell you when we are not the right choice. Prefer to read in Norwegian? Go to the <a href="/" hreflang="nb" lang="nb">Norwegian version</a>.</p>
     <h2 class="center-h">IPTV Norway One at a glance</h2>
     <dl class="facts">
       <div><dt>Price</dt><dd>€15.99 to €169.99, from €5.83/month</dd></div>
@@ -170,7 +170,7 @@ def en_pages():
   <div class="wrap feat">
     {cards([
       ("cyan", "globe", "Norwegian and Nordic channels", "News, entertainment, children's channels and sport, plus channels from Sweden, Denmark and Finland. The line-up can change over time. Ask us about a specific channel before you order and you get a straight answer."),
-      ("violet", "spark", "HD as standard, 4K where it exists", "Channels are delivered in HD, and in 4K where the channel itself broadcasts in 4K. How sharp it looks at home also depends on your TV and connection. Read more in the guide to <a href=\"/guides/\">IPTV guides</a>."),
+      ("violet", "spark", "HD as standard, 4K where it exists", "Channels are delivered in HD, and in 4K where the channel itself broadcasts in 4K. How sharp it looks at home also depends on your TV and connection. Read more in the guide to <a href=\"/en/guides/\">IPTV guides</a>."),
       ("pink", "calendar", "A TV guide (EPG) in the app", "A schedule that shows what is on now and later on every channel, like normal TV. It is what makes IPTV feel like television and not a list of links."),
       ("green", "wifi", "A steady picture on a Saturday night", "The picture should hold even between 19:00 and 22:00, when everyone is online. Most things that make IPTV freeze sit inside the home, usually wifi, and we help you sort that out."),
       ("blue", "chat", "Everything in one chat", "Ordering, payment and help with the setup all happen in the same WhatsApp thread, in English or Norwegian."),
@@ -201,7 +201,7 @@ def en_pages():
     {pricing_cards("en", T)}
     <div class="measure">
       <!--PRICETABLE-->
-      <p class="ruler-note">For the lowest price per month, twelve months is the right choice. With 2 or 3 screens, more people in the household can watch at the same time. Payment, more screens and terms are on the <a href="/iptv-subscription-norway/">IPTV subscription Norway page</a>. The krone amounts use a rate of about {SITE["nok_rate"]} NOK per euro and are guidance, the euro price is what you pay.</p>
+      <p class="ruler-note">For the lowest price per month, twelve months is the right choice. With 2 or 3 screens, more people in the household can watch at the same time. Payment, more screens and terms are on the <a href="/en/iptv-subscription-norway/">IPTV subscription Norway page</a>. The krone amounts use a rate of about {SITE["nok_rate"]} NOK per euro and are guidance, the euro price is what you pay.</p>
     </div>
   </div>
 </section>
@@ -238,7 +238,7 @@ def en_pages():
       <li><h3>Log in and watch</h3><p>You get the login and a short instruction for your own TV. If you get stuck we keep helping in the chat.</p></li>
     </ol>
     <p style="margin-top:28px;text-align:center"><a class="btn" data-track="buy_click" href="{{{{WA:Hi! I'd like to try IPTV Norway One for one month (€15.99).}}}}" rel="noopener" target="_blank">Try one month for €15.99</a></p>
-    <div class="measure" style="text-align:center"><!--IMG:en-home-steps--><p>The full walkthrough, device by device, is in the guide to <a href="/install-iptv/">installing IPTV</a>.</p></div>
+    <div class="measure" style="text-align:center"><!--IMG:en-home-steps--><p>The full walkthrough, device by device, is in the guide to <a href="/en/install-iptv/">installing IPTV</a>.</p></div>
   </div>
 </section>
 
@@ -251,8 +251,8 @@ def en_pages():
     </div>
     <ul>
       <li><strong>IPTV Norway and Norwegian IPTV:</strong> Norwegian channels with a Norwegian TV guide, for people who mainly want to watch Norwegian TV.</li>
-      <li><strong>IPTV Nordic and Nordic IPTV:</strong> Norwegian channels plus channels from Sweden, Denmark and Finland. We cover it on the <a href="/iptv-nordic/">IPTV Nordic page</a>.</li>
-      <li><strong>IPTV Norge:</strong> the same thing in Norwegian. Our <a href="/no/" hreflang="nb" lang="nb">Norwegian site</a> is written for people who search that way.</li>
+      <li><strong>IPTV Nordic and Nordic IPTV:</strong> Norwegian channels plus channels from Sweden, Denmark and Finland. We cover it on the <a href="/en/iptv-nordic/">IPTV Nordic page</a>.</li>
+      <li><strong>IPTV Norge:</strong> the same thing in Norwegian. Our <a href="/" hreflang="nb" lang="nb">Norwegian site</a> is written for people who search that way.</li>
     </ul>
     <p>With IPTV Norway One both are in the same plan, so you do not have to choose between Norwegian and Nordic IPTV.</p>
     <!--IMG:en-home-nordic-->
@@ -298,9 +298,9 @@ def en_pages():
     <h3>Support on WhatsApp</h3>
     <p>You write to a person, not a form. Send a photo of the screen and we see straight away what is going on.</p>
     <h3>Plain terms</h3>
-    <p>No contract, no automatic renewal and prices in euro with the krone amount beside them. IPTV should be as easy to stop as to start. It is all in our <a href="/terms/">terms</a>.</p>
+    <p>No contract, no automatic renewal and prices in euro with the krone amount beside them. IPTV should be as easy to stop as to start. It is all in our <a href="/en/terms/">terms</a>.</p>
     <h3>If something does not work</h3>
-    <p>Write to us on WhatsApp with a photo of the screen and we go through the connection, the app and the settings with you. What applies to a purchase is in our <a href="/terms/">terms</a>.</p>
+    <p>Write to us on WhatsApp with a photo of the screen and we go through the connection, the app and the settings with you. What applies to a purchase is in our <a href="/en/terms/">terms</a>.</p>
     <h3>When we are not the right choice</h3>
     <p>If your connection is under 10 Mbit/s per screen, or you want a box that someone installs at your home, a traditional operator suits you better. Then we are not the right IPTV for you, and it is more honest to say so now than after you have paid.</p>
   </div>
@@ -313,7 +313,7 @@ def en_pages():
       <h2>Guides from our support team</h2>
       <p>Installation, apps and troubleshooting, written from the questions we get.</p>
     </div>
-    <p><a href="/guides/">All IPTV guides for Norway</a></p>
+    <p><a href="/en/guides/">All IPTV guides for Norway</a></p>
   </div>
 </section>
 
@@ -324,7 +324,7 @@ def en_pages():
       <h2>Common questions about IPTV Norway</h2>
     </div>
     {faq_html(faq)}
-    <p style="margin-top:24px">More answers are on the <a href="/faq/">IPTV FAQ page</a>.</p>
+    <p style="margin-top:24px">More answers are on the <a href="/en/faq/">IPTV FAQ page</a>.</p>
   </div>
 </section>
 
@@ -354,7 +354,7 @@ def en_rest(faq):
         "tldr": "An IPTV subscription in Norway from IPTV Norway One costs €15.99 for one month and €69.99 for twelve months on one screen, which is €5.83 a month. Two and three screens cost more. Nothing renews automatically.",
         "schema": [{"@context": "https://schema.org", "@type": "Product", "name": "IPTV Norway One subscription", "brand": {"@type": "Brand", "name": "IPTV Norway One"},
                     "image": BASE + "/assets/og/en-iptv-subscription-norway.png",
-                    "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "15.99", "highPrice": "169.99", "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/iptv-subscription-norway/"}},
+                    "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "15.99", "highPrice": "169.99", "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/en/iptv-subscription-norway/"}},
                    faq_schema(plans_faq)]},
 f"""
 <section class="page-head"><div class="wrap"><span class="eyebrow">Prices</span><h1>IPTV subscription Norway: plans and prices</h1>
@@ -375,7 +375,7 @@ f"""
 <p>When you compare an IPTV subscription Norway sellers offer, look at the contract, the renewal and the support, not just the channel count. Our IPTV subscription Norway plans have no contract and no automatic renewal. To understand your consumer rights before you buy any IPTV subscription Norway offers, the <a href="https://www.forbrukerradet.no/" target="_blank" rel="noopener">Norwegian Consumer Council</a> has plain-language guides.</p>
 <h2>Which plan should you choose?</h2>
 <ul><li><strong>Not sure yet:</strong> one month. It does not renew, so there is nothing to cancel.</li><li><strong>Lowest cost per month:</strong> twelve months.</li><li><strong>Several people watching at once:</strong> pick the 2 or 3 screen tier.</li></ul>
-<p>Not sure what suits your TV? Read how to <a href="/install-iptv/">install IPTV</a> first, or go back to the <a href="/">IPTV Norway home page</a>. Terms are in our <a href="/terms/">terms of service</a>.</p>
+<p>Not sure what suits your TV? Read how to <a href="/en/install-iptv/">install IPTV</a> first, or go back to the <a href="/en/">IPTV Norway home page</a>. Terms are in our <a href="/en/terms/">terms of service</a>.</p>
 <h2>Questions about plans</h2>
 {faq_html(plans_faq)}
 </div></div></section>
@@ -405,9 +405,9 @@ f"""
 <p>With IPTV Norway One the Nordic channels sit in the same plan as the Norwegian ones. That means Norwegian channels first, then channels from Sweden, Denmark and Finland, with a TV guide in the app. The line-up can change over time, so ask us about a specific channel before you order.</p>
 <!--IMG:en-nordic-iptv-->
 <h2>Nordic IPTV compared with IPTV Norway</h2>
-<ul><li><strong>IPTV Norway:</strong> Norwegian channels and a Norwegian guide. Read the <a href="/">IPTV Norway overview</a>.</li><li><strong>Nordic IPTV:</strong> the Norwegian channels plus Sweden, Denmark and Finland.</li><li><strong>Norwegian version:</strong> the same information in Norwegian is on <a href="/no/iptv-nordic/" hreflang="nb" lang="nb">IPTV Nordic på norsk</a>.</li></ul>
+<ul><li><strong>IPTV Norway:</strong> Norwegian channels and a Norwegian guide. Read the <a href="/en/">IPTV Norway overview</a>.</li><li><strong>Nordic IPTV:</strong> the Norwegian channels plus Sweden, Denmark and Finland.</li><li><strong>Norwegian version:</strong> the same information in Norwegian is on <a href="/iptv-nordic/" hreflang="nb" lang="nb">IPTV Nordic på norsk</a>.</li></ul>
 <h2>What you need to watch Nordic IPTV</h2>
-<p>You need an internet connection of at least 10 Mbit/s per screen for HD, and 25 Mbit/s for 4K, and a device with an app. Samsung and LG TVs, Android TV, Fire TV Stick, Apple TV, iPhone, Android and computers all work. The steps are in the guide to <a href="/install-iptv/">installing IPTV</a>.</p>
+<p>You need an internet connection of at least 10 Mbit/s per screen for HD, and 25 Mbit/s for 4K, and a device with an app. Samsung and LG TVs, Android TV, Fire TV Stick, Apple TV, iPhone, Android and computers all work. The steps are in the guide to <a href="/en/install-iptv/">installing IPTV</a>.</p>
 <h2>Who Nordic IPTV is for</h2>
 <p>Nordic IPTV is for households that follow television from more than one country. That can be a family with relatives in Sweden or Denmark, a couple where one grew up in Finland, or someone who commutes across the border and wants the local news in both places. It also suits people who simply enjoy comparing how the neighbouring countries make their news, sport and series.</p>
 <h2>How the TV guide works across countries</h2>
@@ -415,7 +415,7 @@ f"""
 <h2>What to expect from the channel line-up</h2>
 <p>The Nordic countries share a lot of culture, but each one has its own broadcasters and its own rights. That is why we never promise a list we cannot prove. Ask about the channels you care about before you order, and remember that the line-up can change over time. For background on how the Nordic countries cooperate, see the <a href="https://www.norden.org/en" target="_blank" rel="noopener">Nordic cooperation website</a>.</p>
 <h2>What Nordic IPTV costs</h2>
-<p>The plans start at €15.99 for one month, and twelve months on one screen is €69.99, which is €5.83 a month. All prices for 1, 2 and 3 screens are on the <a href="/iptv-subscription-norway/">IPTV subscription Norway page</a>.</p>
+<p>The plans start at €15.99 for one month, and twelve months on one screen is €69.99, which is €5.83 a month. All prices for 1, 2 and 3 screens are on the <a href="/en/iptv-subscription-norway/">IPTV subscription Norway page</a>.</p>
 <h2>Questions about IPTV Nordic</h2>
 {faq_html(nordic_faq)}
 </div></div></section>
@@ -455,7 +455,7 @@ f"""
 <ul><li>Your TV or box model, from the label or the settings menu.</li><li>An internet connection of at least 10 Mbit/s per screen.</li><li>Your login from us on WhatsApp.</li><li>An account in the device's app store (Samsung, LG, Google, Amazon or Apple).</li></ul>
 <h2>How long the setup takes</h2>
 <p>With the right app for your model, most people finish within a few minutes. Finding the right app takes longer than the setup itself, so tell us your model first and we point you to the right one.</p>
-<p>Ready to start? See the <a href="/iptv-subscription-norway/">plans and prices</a>, read about <a href="/iptv-nordic/">Nordic channels</a> or go back to <a href="/">IPTV Norway</a>.</p>
+<p>Ready to start? See the <a href="/en/iptv-subscription-norway/">plans and prices</a>, read about <a href="/en/iptv-nordic/">Nordic channels</a> or go back to <a href="/en/">IPTV Norway</a>.</p>
 </div></div></section>
 <section class="band"><div class="wrap band-in"><div><h2>Stuck on a step?</h2><p>Send your TV model and we tell you what to do.</p></div>
 <a class="btn" data-track="buy_click" href="{{{{WA:Hi! I need help installing IPTV on my TV.}}}}" rel="noopener" target="_blank">{{{{I:chat}}}} Ask on WhatsApp</a></div></section>
@@ -470,14 +470,14 @@ f"""
 <section class="page-head"><div class="wrap"><span class="eyebrow">FAQ</span><h1>Frequently asked questions about IPTV</h1>
 <p>The questions we get most often, answered straight.</p></div></section>
 <section class="sec sec-tight"><div class="wrap">{faq_html(faq)}
-<p style="margin-top:24px">Something missing? <a href="/contact/">Contact us</a> or see the <a href="/iptv-subscription-norway/">plans</a>, or go back to <a href="/">IPTV Norway</a>.</p></div></section>
+<p style="margin-top:24px">Something missing? <a href="/en/contact/">Contact us</a> or see the <a href="/en/iptv-subscription-norway/">plans</a>, or go back to <a href="/en/">IPTV Norway</a>.</p></div></section>
 """)
 
     # ---------------------------------------------------------------- ABOUT
     save("en", "about", {"crumb": "About us", "alt": "om-oss",
         "title": "About IPTV Norway One: Who Writes the Guides and Why",
         "desc": "About IPTV Norway One: an independent IPTV service for Norway, how our support team writes the guides and which facts we will and will not claim.",
-        "schema": [{"@context": "https://schema.org", "@type": "AboutPage", "name": "About us", "url": BASE + "/about/", "inLanguage": "en"}]},
+        "schema": [{"@context": "https://schema.org", "@type": "AboutPage", "name": "About us", "url": BASE + "/en/about/", "inLanguage": "en"}]},
 f"""
 <section class="page-head"><div class="wrap"><span class="eyebrow">About</span><h1>About IPTV Norway One</h1>
 <p>An independent IPTV service for households in Norway, with support on WhatsApp.</p></div></section>
@@ -487,7 +487,7 @@ f"""
 <p>The guides are written by the support team, the same people who answer on WhatsApp. We write about questions customers actually ask. Settings and app features are checked against the manufacturers' own help pages, which we link under each guide, and we correct the text when something changes.</p>
 <h2>What we will not claim</h2>
 <p>We do not publish invented numbers such as uptime percentages, review scores or channel counts we cannot prove. When we do not know something, we say so. The channel line-up can change over time, so we ask you to check a specific channel with us before you order.</p>
-<p>Read our <a href="/terms/">terms</a>, <a href="/privacy/">privacy policy</a> or go to <a href="/contact/">contact</a>.</p>
+<p>Read our <a href="/en/terms/">terms</a>, <a href="/en/privacy/">privacy policy</a> or go to <a href="/en/contact/">contact</a>.</p>
 </div></div></section>
 """)
 
@@ -495,7 +495,7 @@ f"""
     save("en", "contact", {"crumb": "Contact", "alt": "kontakt",
         "title": "Contact IPTV Norway One: WhatsApp and Contact Form",
         "desc": "Contact IPTV Norway One on WhatsApp for orders, installation and troubleshooting, or use the contact form. What to include in your first message.",
-        "schema": [{"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact", "url": BASE + "/contact/", "inLanguage": "en"}]},
+        "schema": [{"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact", "url": BASE + "/en/contact/", "inLanguage": "en"}]},
 f"""
 <section class="page-head"><div class="wrap"><span class="eyebrow">Contact</span><h1>Contact us</h1>
 <p>WhatsApp is fastest, for both ordering and help with the installation. Tell us which TV or box you have, so we can answer the right thing.</p></div></section>
@@ -503,7 +503,7 @@ f"""
 <p><a class="btn" data-track="buy_click" href="{{{{WA:Hi! I have a question about IPTV Norway One.}}}}" rel="noopener" target="_blank">Write on WhatsApp</a></p>
 <div class="table-wrap"><table><tbody><tr><th scope="row">WhatsApp</th><td>{SITE["whatsapp_display"]}</td></tr><tr><th scope="row">Languages</th><td>English and Norwegian</td></tr></tbody></table></div>
 <h2>Include this in your first message</h2>
-<p>For help with the installation, write the brand and model of the TV or box, and send a photo of the screen if an error shows. For an order, write which plan you want. Prices are on the <a href="/iptv-subscription-norway/">IPTV subscription Norway page</a>. Setup steps are in <a href="/install-iptv/">how to install IPTV</a>, and our <a href="/terms/">terms</a> explain what applies to an order.</p>
+<p>For help with the installation, write the brand and model of the TV or box, and send a photo of the screen if an error shows. For an order, write which plan you want. Prices are on the <a href="/en/iptv-subscription-norway/">IPTV subscription Norway page</a>. Setup steps are in <a href="/en/install-iptv/">how to install IPTV</a>, and our <a href="/en/terms/">terms</a> explain what applies to an order.</p>
 <h2>Prefer a form?</h2>
 <p>Use the contact form at the bottom of the page and we reply to the address you give us.</p>
 </div></div>
@@ -522,7 +522,7 @@ f"""
 <h2>Support and problems</h2><p>If something does not work, write to us on WhatsApp with a photo of the screen and we go through the connection, the app and the settings with you.</p>
 <h2>Your rights</h2><p>Your statutory rights as a consumer under Norwegian law are not affected by these terms.</p>
 <h2>Acceptable use</h2><p>The service is for private use in your household. You are responsible for how you use it and for following the law that applies to you.</p>
-<p>Questions? <a href="/contact/">Contact us</a>. See also the <a href="/privacy/">privacy policy</a> and the <a href="/iptv-subscription-norway/">plans</a>.</p>
+<p>Questions? <a href="/en/contact/">Contact us</a>. See also the <a href="/en/privacy/">privacy policy</a> and the <a href="/en/iptv-subscription-norway/">plans</a>.</p>
 </div></div>
 """)
     save("en", "privacy", {"crumb": "Privacy policy", "alt": "personvern",
@@ -533,9 +533,9 @@ f"""
 <div class="wrap"><div class="prose">
 <h2>What we collect</h2><p>When you write to us on WhatsApp we see your phone number and the messages you send. When you use the contact form we receive the name, contact details and message you type. We use this only to answer you and deliver your order.</p>
 <h2>What we do not do</h2><p>We do not sell your data, we do not store card details and we do not use advertising trackers.</p>
-<h2>Statistics</h2><p>If you accept, we count page views and clicks to improve the site. No cookies are used. If you decline, nothing is counted. You can change your choice on the <a href="/cookies/">cookies and statistics page</a>.</p>
-<h2>Your rights</h2><p>You can ask us to show, correct or delete what we hold about you. Write to us on <a href="/contact/">the contact page</a>.</p>
-<p>See also our <a href="/terms/">terms</a> and the <a href="/">home page</a>.</p>
+<h2>Statistics</h2><p>If you accept, we count page views and clicks to improve the site. No cookies are used. If you decline, nothing is counted. You can change your choice on the <a href="/en/cookies/">cookies and statistics page</a>.</p>
+<h2>Your rights</h2><p>You can ask us to show, correct or delete what we hold about you. Write to us on <a href="/en/contact/">the contact page</a>.</p>
+<p>See also our <a href="/en/terms/">terms</a> and the <a href="/en/">home page</a>.</p>
 </div></div>
 """)
     save("en", "cookies", {"crumb": "Cookies and statistics", "alt": "cookies",
@@ -546,12 +546,12 @@ f"""
 <div class="wrap"><div class="prose">
 <p>This site sets no cookies. Optional statistics count page views and clicks to help us improve the site, and they only load if you press Accept. Declining is the default.</p>
 <p><button class="btn btn-sm btn-line" type="button" data-consent-reset>Change my choice</button></p>
-<p>More in the <a href="/privacy/">privacy policy</a>. See also the <a href="/terms/">terms</a>, the <a href="/">home page</a> and <a href="/contact/">contact</a>.</p>
+<p>More in the <a href="/en/privacy/">privacy policy</a>. See also the <a href="/en/terms/">terms</a>, the <a href="/en/">home page</a> and <a href="/en/contact/">contact</a>.</p>
 </div></div>
 """)
     save("en", "404", {"crumb": "Not found", "robots": "noindex, follow", "title": "Page not found | IPTV Norway One", "desc": "This page does not exist. Go back to the home page or see the IPTV plans."},
 f"""
-<section class="page-head"><div class="wrap"><h1>Page not found</h1><p>The page you are looking for does not exist. Go to the <a href="/">home page</a> or see the <a href="/iptv-subscription-norway/">plans</a>.</p></div></section>
+<section class="page-head"><div class="wrap"><h1>Page not found</h1><p>The page you are looking for does not exist. Go to the <a href="/en/">home page</a> or see the <a href="/en/iptv-subscription-norway/">plans</a>.</p></div></section>
 """)
 
 

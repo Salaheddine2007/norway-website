@@ -1,6 +1,6 @@
 # IPTV Norway One
 
-> IPTV Norway One sells IPTV subscriptions with Norwegian and Nordic channels in HD to households in Norway. Ordering, payment and installation help happen on WhatsApp. The site is available in English (/) and Norwegian (/no/).
+> IPTV Norway One sells IPTV subscriptions with Norwegian and Nordic channels in HD to households in Norway. Ordering, payment and installation help happen on WhatsApp. The site is available in Norwegian (/) and English (/en/).
 
 ## Facts
 
@@ -14,36 +14,36 @@
 - Ordering and support: Via WhatsApp, in English and Norwegian
 - Payment: Visa, Mastercard, Maestro, Apple Pay, Google Pay, PayPal; from other EU countries also SEPA, iDEAL, Bancontact, giropay
 
-## Pages (en)
-
-- [About IPTV Norway One: Who Writes the Guides and Why](https://iptvnorwayone.com/about/): About IPTV Norway One: an independent IPTV service for Norway, how our support team writes the guides and which facts we will and will not claim.
-- [Contact IPTV Norway One: WhatsApp and Contact Form](https://iptvnorwayone.com/contact/): Contact IPTV Norway One on WhatsApp for orders, installation and troubleshooting, or use the contact form. What to include in your first message.
-- [Cookies and Statistics at IPTV Norway One | Your Choice](https://iptvnorwayone.com/cookies/): IPTV Norway One uses no cookies. Optional statistics count visits and clicks only if you accept. Here is how it works and how to change your choice.
-- [IPTV Norway FAQ: Questions and Answers | IPTV Norway One](https://iptvnorwayone.com/faq/): Answers about IPTV Norway One: plans, payment, speed, devices, renewal and legality. Short and straight, written by our support team.
-- [IPTV Norway 2026: Norwegian and Nordic TV in HD from €5.83/mo](https://iptvnorwayone.com/): IPTV Norway for households: Norwegian and Nordic channels in HD, a TV guide and install help on WhatsApp. From €5.83/month, no contract. Order today.
-- [Install IPTV in 3 Steps on Smart TV, Fire TV and Phone](https://iptvnorwayone.com/install-iptv/): To install IPTV you pick a plan, get your login on WhatsApp and put an IPTV app on your TV, box or phone. It takes a few minutes if you have 10 Mbit/s per screen and the right app for your model.
-- [IPTV Nordic 2026: 4 Countries of TV in One App | One](https://iptvnorwayone.com/iptv-nordic/): IPTV Nordic means Norwegian, Swedish, Danish and Finnish channels in one IPTV app. With IPTV Norway One the Nordic channels are included in the same plan as the Norwegian ones, from €5.83 a month.
-- [IPTV Subscription Norway: 12 Plans from €15.99 | One](https://iptvnorwayone.com/iptv-subscription-norway/): An IPTV subscription in Norway from IPTV Norway One costs €15.99 for one month and €69.99 for twelve months on one screen, which is €5.83 a month. Two and three screens cost more. Nothing renews automatically.
-- [Privacy Policy for IPTV Norway One | What We Store and Why](https://iptvnorwayone.com/privacy/): Privacy policy for IPTV Norway One: what we collect when you order or use the contact form, how long we keep it and how to ask us to delete it.
-- [Terms of Service for IPTV Norway One | Plans and Renewal](https://iptvnorwayone.com/terms/): Terms of service for IPTV Norway One: plans, payment, no automatic renewal, support, acceptable use and your rights as a consumer in Norway.
-
-## Guides (en)
-
-
 ## Pages (nb)
 
-- [Cookies og statistikk hos IPTV Norway One | Ditt valg](https://iptvnorwayone.com/no/cookies/): IPTV Norway One bruker ingen cookies. Valgfri statistikk teller besøk og klikk bare hvis du godtar. Slik fungerer det og slik endrer du valget.
-- [IPTV Norge 2026: norsk og nordisk TV i HD fra 68 kr/mnd](https://iptvnorwayone.com/no/): IPTV Norge for norske hjem: norske og nordiske kanaler i HD, TV-guide og hjelp med installasjonen på WhatsApp. Fra 68 kr/mnd uten binding. Bestill i dag.
-- [Installer IPTV i 3 steg på smart-TV, Fire TV og mobil](https://iptvnorwayone.com/no/installer-iptv/): For å installere IPTV velger du en pakke, får innloggingen på WhatsApp og legger en IPTV-app på TV-en, boksen eller mobilen. Det tar noen minutter hvis du har 10 Mbit/s per skjerm og riktig app for modellen din.
-- [IPTV Abonnement Norge: 12 pakker fra 189 kr | Norway One](https://iptvnorwayone.com/no/iptv-abonnement-norge/): Et IPTV-abonnement i Norge fra IPTV Norway One koster 189 kr for én måned og 819 kr for tolv måneder på én skjerm, som er 68 kr i måneden. To og tre skjermer koster mer. Ingenting fornyes automatisk.
-- [IPTV Nordic 2026: 4 land med TV i én app | Norway One](https://iptvnorwayone.com/no/iptv-nordic/): IPTV Nordic betyr norske, svenske, danske og finske kanaler i én IPTV-app. Hos IPTV Norway One er de nordiske kanalene med i samme pakke som de norske, fra 68 kr i måneden.
-- [Kontakt IPTV Norway One: WhatsApp og kontaktskjema](https://iptvnorwayone.com/no/kontakt/): Kontakt IPTV Norway One på WhatsApp for bestilling, installasjon og feilsøking, eller bruk kontaktskjemaet. Hva du bør ha med i første melding.
-- [Om IPTV Norway One: hvem skriver guidene og hvorfor](https://iptvnorwayone.com/no/om-oss/): Om IPTV Norway One: en uavhengig IPTV-tjeneste for Norge, hvordan supporten skriver guidene og hvilke fakta vi vil og ikke vil påstå.
-- [Personvernerklæring for IPTV Norway One | Hva vi lagrer](https://iptvnorwayone.com/no/personvern/): Personvern hos IPTV Norway One: hva vi samler inn når du bestiller eller bruker kontaktskjemaet, hvor lenge vi lagrer det og hvordan du ber om sletting.
-- [IPTV Norge: vanlige spørsmål og svar | IPTV Norway One](https://iptvnorwayone.com/no/vanlige-sporsmal/): Svar om IPTV Norway One: pakker, betaling, hastighet, enheter, fornyelse og lovlighet. Korte og rake svar, skrevet av supporten vår.
-- [Vilkår for IPTV Norway One | Pakker og fornyelse](https://iptvnorwayone.com/no/vilkar/): Vilkår for IPTV Norway One: pakker, betaling, ingen automatisk fornyelse, support, bruk av tjenesten og dine rettigheter som forbruker i Norge.
+- [Cookies og statistikk hos IPTV Norway One | Ditt valg](https://iptvnorwayone.com/cookies/): IPTV Norway One bruker ingen cookies. Valgfri statistikk teller besøk og klikk bare hvis du godtar. Slik fungerer det og slik endrer du valget.
+- [IPTV Norge 2026: norsk og nordisk TV i HD fra 68 kr/mnd](https://iptvnorwayone.com/): IPTV Norge for norske hjem: norske og nordiske kanaler i HD, TV-guide og hjelp med installasjonen på WhatsApp. Fra 68 kr/mnd uten binding. Bestill i dag.
+- [Installer IPTV i 3 steg på smart-TV, Fire TV og mobil](https://iptvnorwayone.com/installer-iptv/): For å installere IPTV velger du en pakke, får innloggingen på WhatsApp og legger en IPTV-app på TV-en, boksen eller mobilen. Det tar noen minutter hvis du har 10 Mbit/s per skjerm og riktig app for modellen din.
+- [IPTV Abonnement Norge: 12 pakker fra 189 kr | Norway One](https://iptvnorwayone.com/iptv-abonnement-norge/): Et IPTV-abonnement i Norge fra IPTV Norway One koster 189 kr for én måned og 819 kr for tolv måneder på én skjerm, som er 68 kr i måneden. To og tre skjermer koster mer. Ingenting fornyes automatisk.
+- [IPTV Nordic 2026: 4 land med TV i én app | Norway One](https://iptvnorwayone.com/iptv-nordic/): IPTV Nordic betyr norske, svenske, danske og finske kanaler i én IPTV-app. Hos IPTV Norway One er de nordiske kanalene med i samme pakke som de norske, fra 68 kr i måneden.
+- [Kontakt IPTV Norway One: WhatsApp og kontaktskjema](https://iptvnorwayone.com/kontakt/): Kontakt IPTV Norway One på WhatsApp for bestilling, installasjon og feilsøking, eller bruk kontaktskjemaet. Hva du bør ha med i første melding.
+- [Om IPTV Norway One: hvem skriver guidene og hvorfor](https://iptvnorwayone.com/om-oss/): Om IPTV Norway One: en uavhengig IPTV-tjeneste for Norge, hvordan supporten skriver guidene og hvilke fakta vi vil og ikke vil påstå.
+- [Personvernerklæring for IPTV Norway One | Hva vi lagrer](https://iptvnorwayone.com/personvern/): Personvern hos IPTV Norway One: hva vi samler inn når du bestiller eller bruker kontaktskjemaet, hvor lenge vi lagrer det og hvordan du ber om sletting.
+- [IPTV Norge: vanlige spørsmål og svar | IPTV Norway One](https://iptvnorwayone.com/vanlige-sporsmal/): Svar om IPTV Norway One: pakker, betaling, hastighet, enheter, fornyelse og lovlighet. Korte og rake svar, skrevet av supporten vår.
+- [Vilkår for IPTV Norway One | Pakker og fornyelse](https://iptvnorwayone.com/vilkar/): Vilkår for IPTV Norway One: pakker, betaling, ingen automatisk fornyelse, support, bruk av tjenesten og dine rettigheter som forbruker i Norge.
 
 ## Guides (nb)
+
+
+## Pages (en)
+
+- [About IPTV Norway One: Who Writes the Guides and Why](https://iptvnorwayone.com/en/about/): About IPTV Norway One: an independent IPTV service for Norway, how our support team writes the guides and which facts we will and will not claim.
+- [Contact IPTV Norway One: WhatsApp and Contact Form](https://iptvnorwayone.com/en/contact/): Contact IPTV Norway One on WhatsApp for orders, installation and troubleshooting, or use the contact form. What to include in your first message.
+- [Cookies and Statistics at IPTV Norway One | Your Choice](https://iptvnorwayone.com/en/cookies/): IPTV Norway One uses no cookies. Optional statistics count visits and clicks only if you accept. Here is how it works and how to change your choice.
+- [IPTV Norway FAQ: Questions and Answers | IPTV Norway One](https://iptvnorwayone.com/en/faq/): Answers about IPTV Norway One: plans, payment, speed, devices, renewal and legality. Short and straight, written by our support team.
+- [IPTV Norway 2026: Norwegian and Nordic TV in HD from €5.83/mo](https://iptvnorwayone.com/en/): IPTV Norway for households: Norwegian and Nordic channels in HD, a TV guide and install help on WhatsApp. From €5.83/month, no contract. Order today.
+- [Install IPTV in 3 Steps on Smart TV, Fire TV and Phone](https://iptvnorwayone.com/en/install-iptv/): To install IPTV you pick a plan, get your login on WhatsApp and put an IPTV app on your TV, box or phone. It takes a few minutes if you have 10 Mbit/s per screen and the right app for your model.
+- [IPTV Nordic 2026: 4 Countries of TV in One App | One](https://iptvnorwayone.com/en/iptv-nordic/): IPTV Nordic means Norwegian, Swedish, Danish and Finnish channels in one IPTV app. With IPTV Norway One the Nordic channels are included in the same plan as the Norwegian ones, from €5.83 a month.
+- [IPTV Subscription Norway: 12 Plans from €15.99 | One](https://iptvnorwayone.com/en/iptv-subscription-norway/): An IPTV subscription in Norway from IPTV Norway One costs €15.99 for one month and €69.99 for twelve months on one screen, which is €5.83 a month. Two and three screens cost more. Nothing renews automatically.
+- [Privacy Policy for IPTV Norway One | What We Store and Why](https://iptvnorwayone.com/en/privacy/): Privacy policy for IPTV Norway One: what we collect when you order or use the contact form, how long we keep it and how to ask us to delete it.
+- [Terms of Service for IPTV Norway One | Plans and Renewal](https://iptvnorwayone.com/en/terms/): Terms of service for IPTV Norway One: plans, payment, no automatic renewal, support, acceptable use and your rights as a consumer in Norway.
+
+## Guides (en)
 
 
 Last updated: 2026-11-22

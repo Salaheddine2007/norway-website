@@ -27,7 +27,7 @@ def pages():
 def sources():
     """url -> source meta (focus keyword etc.) from tools/pages/<lang> and tools/posts/<lang>"""
     out = {}
-    for lang, pre, blog in (("en", "/", "/guides/"), ("no", "/no/", "/no/guider/")):
+    for lang, pre, blog in (("en", "/en/", "/en/guides/"), ("no", "/", "/guider/")):
         for sub, prefix in (("pages", pre), ("posts", blog)):
             d = os.path.join(ROOT, "tools", sub, lang)
             if not os.path.isdir(d): continue
@@ -56,7 +56,7 @@ def rank_math(url, doc, meta, bad):
     if pos < 0 or pos > len(title) / 2: bad(f"RM: keyword '{kw}' not near the start of the title")
     if not re.search(r"\d", title): bad("RM: no number in title")
     if kw not in desc: bad("RM: keyword missing from meta description")
-    if url not in ("/", "/no/") and slugify(kw) not in url: bad(f"RM: keyword not in URL ({slugify(kw)})")
+    if url not in ("/", "/en/") and slugify(kw) not in url: bad(f"RM: keyword not in URL ({slugify(kw)})")
     if kw not in " ".join(words[:max(len(words) // 10, 60)]): bad("RM: keyword not in the first 10% of the content")
     if not any(kw in html.unescape(re.sub(r"<[^>]+>", "", h)).lower() for h in re.findall(r"<h[23][^>]*>(.*?)</h[23]>", main_part, re.S)):
         bad("RM: keyword not in any H2/H3")
@@ -114,12 +114,12 @@ def main():
         if bot not in robots: problems.append(f"robots.txt: {bot} not explicitly allowed")
     if not os.path.exists(os.path.join(ROOT, "llms.txt")): problems.append("llms.txt missing")
     for url, m in src.items():
-        if m.get("keyword") and url not in ("/", "/no/") and 'class="kort"' not in all_pages.get(url, ""):
+        if m.get("keyword") and url not in ("/", "/en/") and 'class="kort"' not in all_pages.get(url, ""):
             problems.append(f"{url}: GEO: no 'Kort svar' answer box")
-    for home in ("/", "/no/"):
+    for home in ("/", "/en/"):
         if 'class="facts"' not in all_pages.get(home, ""): problems.append(f"{home}: GEO: no facts list")
     for url in exists:
-        if url not in ("/", "/no/", "/404.html", "/no/404.html") and not linked.get(url):
+        if url not in ("/", "/en/", "/404.html", "/en/404.html") and not linked.get(url):
             problems.append(f"{url}: orphan (no page links to it)")
     print(f"{len(exists)} pages checked, {len(problems)} problems, {len(ph)} placeholders")
     if "--rm" in sys.argv:

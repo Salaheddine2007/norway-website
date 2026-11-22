@@ -21,7 +21,7 @@ SITE = json.load(open(os.path.join(TOOLS, "site.json"), encoding="utf-8"))
 BASE = SITE["base"]
 
 LANGS = {
-    "en": dict(prefix="", html="en", blog="guides",
+    "en": dict(prefix="/en", html="en", blog="guides",
                months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
                home="Home", crumbs="Breadcrumbs", guide="Guide", guides="Guides", published="Published", updated="Updated",
                toc="Contents", kort="Short answer", sources="Sources and official help pages", prev="Previous guide", nxt="Next guide", more="More guides",
@@ -32,11 +32,11 @@ LANGS = {
                idx_title="IPTV guides for Norway: apps, installation and troubleshooting",
                idx_desc="IPTV guides for Norway: pick an app, install on Smart TV and Apple TV, get 4K to run smoothly and fix buffering. Written by our support team.",
                idx_h1="IPTV guides for Norway",
-               idx_p="Installation, apps, picture quality and troubleshooting. We write about the things customers actually ask us. Prices are on the <a href=\"/iptv-subscription-norway/\">IPTV plans page</a>.",
+               idx_p="Installation, apps, picture quality and troubleshooting. We write about the things customers actually ask us. Prices are on the <a href=\"/en/iptv-subscription-norway/\">IPTV plans page</a>.",
                blogname="Guides - IPTV Norway One",
                org_desc="IPTV Norway One sells IPTV subscriptions with Norwegian and Nordic channels in HD to households in Norway, with ordering and support on WhatsApp.",
                wa_default="Hi! I'd like to order IPTV Norway One.", about_slug="about", contact_slug="contact"),
-    "no": dict(prefix="/no", html="nb", blog="guider",
+    "no": dict(prefix="", html="nb", blog="guider",
                months=["januar", "februar", "mars", "april", "mai", "juni", "juli", "august", "september", "oktober", "november", "desember"],
                home="Hjem", crumbs="Brødsmulesti", guide="Guide", guides="Guider", published="Publisert", updated="Oppdatert",
                toc="Innhold", kort="Kort svar", sources="Kilder og offisielle hjelpesider", prev="Forrige guide", nxt="Neste guide", more="Flere guider",
@@ -47,7 +47,7 @@ LANGS = {
                idx_title="IPTV-guider for Norge: apper, installasjon og feilsøking",
                idx_desc="IPTV-guider for Norge: velg app, installer på smart-TV og Apple TV, få 4K til å gå jevnt og løs hakking. Skrevet av supporten vår.",
                idx_h1="IPTV-guider for Norge",
-               idx_p="Installasjon, apper, bildekvalitet og feilsøking. Vi skriver om det kundene faktisk spør oss om. Priser finner du på <a href=\"/no/iptv-abonnement-norge/\">siden om IPTV-abonnement</a>.",
+               idx_p="Installasjon, apper, bildekvalitet og feilsøking. Vi skriver om det kundene faktisk spør oss om. Priser finner du på <a href=\"/iptv-abonnement-norge/\">siden om IPTV-abonnement</a>.",
                blogname="Guider - IPTV Norway One",
                org_desc="IPTV Norway One selger IPTV-abonnement med norske og nordiske kanaler i HD til husholdninger i Norge, med bestilling og support på WhatsApp.",
                wa_default="Hei! Jeg vil bestille IPTV Norway One.", about_slug="om-oss", contact_slug="kontakt"),
@@ -154,7 +154,7 @@ def org(lang):
 
 def website():
     return {"@context": "https://schema.org", "@type": "WebSite", "@id": BASE + "/#site", "name": SITE["name"], "url": BASE + "/",
-            "inLanguage": ["en", "nb"], "publisher": {"@id": BASE + "/#org"}}
+            "inLanguage": ["nb", "en"], "publisher": {"@id": BASE + "/#org"}}
 
 def crumbs(lang, trail):
     L = LANGS[lang]
@@ -170,7 +170,7 @@ def crumbs(lang, trail):
 
 def hreflangs(alts):
     tags = "".join(f'<link rel="alternate" hreflang="{LANGS[l]["html"]}" href="{u}">' for l, u in alts.items())
-    return tags + f'<link rel="alternate" hreflang="x-default" href="{alts["en"]}">'
+    return tags + f'<link rel="alternate" hreflang="x-default" href="{alts["no"]}">'
 
 def page(lang, meta, body, url, trail, og_name, extra_schema=(), og_type="website", alts=None):
     L = LANGS[lang]
@@ -319,9 +319,9 @@ def blog_index(lang, posts):
 
 def llms_txt(pages_by_lang, posts_by_lang):
     out = [f"# {SITE['name']}", "", "> IPTV Norway One sells IPTV subscriptions with Norwegian and Nordic channels in HD to households in Norway. "
-           "Ordering, payment and installation help happen on WhatsApp. The site is available in English (/) and Norwegian (/no/).", "", "## Facts", ""]
+           "Ordering, payment and installation help happen on WhatsApp. The site is available in Norwegian (/) and English (/en/).", "", "## Facts", ""]
     out += [f"- {k}: {v}" for k, v in SITE.get("facts", [])]
-    for lang in ("en", "no"):
+    for lang in ("no", "en"):
         out += ["", f"## Pages ({LANGS[lang]['html']})", ""] + [f"- [{t}]({u}): {d}" for t, u, d in pages_by_lang[lang]]
         out += ["", f"## Guides ({LANGS[lang]['html']})", ""] + [f"- [{m['h1']}]({m['url']}): {m.get('tldr') or m['desc']}" for m, _ in posts_by_lang[lang]]
     out += ["", f"Last updated: {SITE['launched']}", ""]
@@ -384,7 +384,7 @@ def main():
             x = ""
             if alts:
                 x = "".join(f'<xhtml:link rel="alternate" hreflang="{LANGS[l]["html"]}" href="{au}"/>' for l, au in alts.items())
-                x += f'<xhtml:link rel="alternate" hreflang="x-default" href="{alts["en"]}"/>'
+                x += f'<xhtml:link rel="alternate" hreflang="x-default" href="{alts["no"]}"/>'
             f.write(f"  <url><loc>{u}</loc><lastmod>{lm}</lastmod>{x}</url>\n")
         f.write("</urlset>\n")
     write("llms.txt", llms_txt(pages_by_lang, posts_by_lang))
