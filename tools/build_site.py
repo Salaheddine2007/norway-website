@@ -47,7 +47,7 @@ LANGS = {
                idx_title="IPTV-guider for Norge: apper, installasjon og feilsøking",
                idx_desc="IPTV-guider for Norge: velg app, installer på smart-TV og Apple TV, få 4K til å gå jevnt og løs hakking. Skrevet av supporten vår.",
                idx_h1="IPTV-guider for Norge",
-               idx_p="Installasjon, apper, bildekvalitet og feilsøking. Vi skriver om det kundene faktisk spør oss om. Priser finner du på <a href=\"/iptv-abonnement-norge/\">siden om IPTV-abonnement</a>.",
+               idx_p="Installasjon, apper, bildekvalitet og feilsøking. Vi skriver om det kundene faktisk spør oss om. Priser finner du på <a href=\"/iptv-norway-abonnement/\">siden om IPTV-abonnement</a>.",
                blogname="Guider - IPTV Norway One",
                org_desc="IPTV Norway One selger IPTV-abonnement med norske og nordiske kanaler i HD til husholdninger i Norge, med bestilling og support på WhatsApp.",
                wa_default="Hei! Jeg vil bestille IPTV Norway One.", about_slug="om-oss", contact_slug="kontakt"),

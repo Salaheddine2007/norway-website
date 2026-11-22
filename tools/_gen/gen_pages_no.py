@@ -11,8 +11,8 @@ T = NO
 
 def no_pages():
     faq = [
-        ("Hva er IPTV Norge?", "IPTV Norge betyr TV levert over internettforbindelsen din i stedet for parabol, kabel eller antenne. Med IPTV Norway One ser du norske og nordiske kanaler i en app på TV-en, boksen, mobilen eller datamaskinen."),
-        ("Hva er forskjellen på IPTV Norge og IPTV Nordic?", "IPTV Norge handler om norske kanaler og en norsk TV-guide. IPTV Nordic betyr at kanaler fra Sverige, Danmark og Finland også er med. Med IPTV Norway One får du begge deler i samme pakke."),
+        ("Hva er IPTV Norway?", "IPTV Norway betyr TV levert over internettforbindelsen din i stedet for parabol, kabel eller antenne. Med IPTV Norway One ser du norske og nordiske kanaler i en app på TV-en, boksen, mobilen eller datamaskinen."),
+        ("Hva er forskjellen på IPTV Norway og IPTV Nordic?", "IPTV Norway handler om norske kanaler og en norsk TV-guide. IPTV Nordic betyr at kanaler fra Sverige, Danmark og Finland også er med. Med IPTV Norway One får du begge deler i samme pakke."),
         ("Hvilken internetthastighet trenger jeg?", "Regn med minst 10 Mbit/s per skjerm for HD og 25 Mbit/s for 4K. Mål på TV-en eller boksen, ikke på mobilen. En nettverkskabel gir nesten alltid jevnere bilde enn wifi."),
         ("Må jeg kjøpe en boks?", "Som regel ikke. Samsung- og LG-TV fra de siste årene klarer IPTV med en app. Har du en eldre TV er en Fire TV Stick eller en Android TV-boks den billigste måten å komme i gang på."),
         ("Fornyes abonnementet automatisk?", "Nei. Vi trekker ingen penger automatisk og lagrer ingen kortopplysninger. Når perioden nærmer seg slutten, forlenger du selv hvis du vil."),
@@ -20,28 +20,28 @@ def no_pages():
         ("Kan jeg teste før jeg kjøper en lengre pakke?", "Ja. Start med én måned for 189 kr. Den fornyes ikke av seg selv, så det er ingenting å si opp. Fungerer alt, kan du ta en lengre pakke når måneden er over."),
         ("Er IPTV lovlig i Norge?", "IPTV er bare en teknologi, og den er lovlig. Det som avgjør er om kanalene du ser på har rettigheter til å distribueres. Vi kan ikke gi juridisk rådgivning, så spør oss hva en pakke inneholder før du bestiller, og les informasjonen fra <a href=\"https://www.medietilsynet.no/\" target=\"_blank\" rel=\"noopener\">Medietilsynet</a>. Du er selv ansvarlig for hvordan du bruker tjenesten."),
     ]
-    home_meta = {"speakable": True, "keyword": "iptv norge", "crumb": "Hjem", "alt": "",
-        "title": "IPTV Norge 2026: norsk og nordisk TV i HD fra 68 kr/mnd",
-        "desc": "IPTV Norge for norske hjem: norske og nordiske kanaler i HD, TV-guide og hjelp med installasjonen på WhatsApp. Fra 68 kr/mnd uten binding. Bestill i dag.",
-        "og": "IPTV Norge 2026: norsk og nordisk TV i HD fra 68 kr i måneden",
-        "img_alt": "IPTV Norge: norsk og nordisk TV i HD på smart-TV, boks og mobil",
+    home_meta = {"speakable": True, "keyword": "iptv norway", "crumb": "Hjem", "alt": "",
+        "title": "IPTV Norway 2026: norsk og nordisk TV i HD fra 68 kr/mnd",
+        "desc": "IPTV Norway for norske hjem: norske og nordiske kanaler i HD, TV-guide og hjelp med installasjonen på WhatsApp. Fra 68 kr/mnd uten binding. Bestill i dag.",
+        "og": "IPTV Norway 2026: norsk og nordisk TV i HD fra 68 kr i måneden",
+        "img_alt": "IPTV Norway: norsk og nordisk TV i HD på smart-TV, boks og mobil",
         "images": [
-            {"name": "no-home-enheter", "title": "IPTV Norge på smart-TV, Fire TV Stick, Android TV og Apple TV", "alt": "IPTV Norge på smart-TV, Fire TV Stick, Android TV, Apple TV og MAG-boks"},
+            {"name": "no-home-enheter", "title": "IPTV Norway på smart-TV, Fire TV Stick, Android TV og Apple TV", "alt": "IPTV Norway på smart-TV, Fire TV Stick, Android TV, Apple TV og MAG-boks"},
             {"name": "no-home-nordic", "title": "IPTV Nordic: norske, svenske, danske og finske kanaler i én app", "alt": "IPTV Nordic med norske, svenske, danske og finske kanaler i samme app"},
-            {"name": "no-home-steg", "title": "Kom i gang med IPTV Norge i tre steg", "alt": "Kom i gang med IPTV Norge i tre steg via WhatsApp"}],
+            {"name": "no-home-steg", "title": "Kom i gang med IPTV Norway i tre steg", "alt": "Kom i gang med IPTV Norway i tre steg via WhatsApp"}],
         "schema": [
             {"@context": "https://schema.org", "@type": "Product", "name": "IPTV Norway One abonnement", "brand": {"@type": "Brand", "name": "IPTV Norway One"},
              "description": "IPTV-abonnement med norske og nordiske kanaler i HD for smart-TV, Android TV, Apple TV, mobil og datamaskin.",
              "image": BASE + "/assets/og/no-home.png",
-             "offers": {"@type": "AggregateOffer", "priceCurrency": "NOK", "lowPrice": str(NOK["1"]["1"]), "highPrice": str(NOK["3"]["12"]), "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/iptv-abonnement-norge/"}},
+             "offers": {"@type": "AggregateOffer", "priceCurrency": "NOK", "lowPrice": str(NOK["1"]["1"]), "highPrice": str(NOK["3"]["12"]), "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/iptv-norway-abonnement/"}},
             faq_schema(faq)]}
     home = f"""
 <section class="hero">
   <div class="wrap hero-in">
     <div>
       <span class="pill"><span class="dot"></span>Live nå · norsk og nordisk TV i HD</span>
-      <h1>IPTV Norge <span class="grad-text">for norsk og nordisk TV</span> i HD</h1>
-      <p class="lead">IPTV Norge skal være enkelt: <b>norske og nordiske kanaler i HD</b>, i en app på TV-en du allerede har. Hos IPTV Norway One velger du 1, 3, 6 eller 12 måneder, og vi hjelper deg med installasjonen på WhatsApp.</p>
+      <h1>IPTV Norway <span class="grad-text">for norsk og nordisk TV</span> i HD</h1>
+      <p class="lead">IPTV Norway skal være enkelt: <b>norske og nordiske kanaler i HD</b>, i en app på TV-en du allerede har. Hos IPTV Norway One velger du 1, 3, 6 eller 12 måneder, og vi hjelper deg med installasjonen på WhatsApp.</p>
       <div class="hero-cta">
         <a class="btn" data-track="buy_click" href="{{{{WA:Hei! Jeg vil bestille IPTV Norway One.}}}}" rel="noopener" target="_blank">{{{{I:chat}}}} Bestill på WhatsApp</a>
         <a class="btn btn-ghost" href="#priser">Se prisene →</a>
@@ -88,7 +88,7 @@ def no_pages():
 
 <section class="sec">
   <div class="wrap measure">
-    <p>Denne siden er skrevet for deg som leter etter IPTV Norge og vil vite hva du faktisk får. Vi går gjennom kanalene, prisene, hvilke skjermer som fungerer og hvordan du kommer i gang. Vi sier også fra når vi ikke er riktig valg. Vil du heller lese på engelsk? Gå til den <a href="/en/" hreflang="en" lang="en">engelske versjonen</a>.</p>
+    <p>Denne siden er skrevet for deg som leter etter IPTV Norway og vil vite hva du faktisk får. Vi går gjennom kanalene, prisene, hvilke skjermer som fungerer og hvordan du kommer i gang. Vi sier også fra når vi ikke er riktig valg. Vil du heller lese på engelsk? Gå til den <a href="/en/" hreflang="en" lang="en">engelske versjonen</a>.</p>
     <h2 class="center-h">IPTV Norway One i korte trekk</h2>
     <dl class="facts">
       <div><dt>Pris</dt><dd>189 til 1 989 kr, fra 68 kr/mnd</dd></div>
@@ -110,7 +110,7 @@ def no_pages():
     <div class="sec-head center">
       <span class="eyebrow">Dette er inkludert</span>
       <h2>Derfor passer IPTV Norway One for norske hjem</h2>
-      <p>God IPTV Norge handler ikke om den lengste kanallisten. Det handler om at TV-en starter når du trykker på fjernkontrollen, at guiden viser riktig program og at det finnes noen å spørre. Slik ser det ut hos oss.</p>
+      <p>God IPTV Norway handler ikke om den lengste kanallisten. Det handler om at TV-en starter når du trykker på fjernkontrollen, at guiden viser riktig program og at det finnes noen å spørre. Slik ser det ut hos oss.</p>
     </div>
   </div>
   <div class="wrap feat">
@@ -140,14 +140,14 @@ def no_pages():
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Priser</span>
-      <h2>Hva IPTV Norge koster: fire pakker, samme innhold</h2>
+      <h2>Hva IPTV Norway koster: fire pakker, samme innhold</h2>
       <p>Velg hvor mange skjermer dere vil se på samtidig, og så hvor lenge. Kanalene og bildekvaliteten er de samme i alle pakker. Prisene står i kroner med euro-beløpet ved siden av.</p>
     </div>
     <!--DEVICES-->
     {pricing_cards("no", T)}
     <div class="measure">
       <!--PRICETABLE-->
-      <p class="ruler-note">Vil du ha lavest pris per måned, er tolv måneder riktig valg. Med 2 eller 3 skjermer kan flere i husholdningen se samtidig. Betaling, flere skjermer og vilkår står på siden om <a href="/iptv-abonnement-norge/">IPTV-abonnement i Norge</a>. Kronebeløpene er regnet ut fra en kurs på omtrent {SITE["nok_rate"]} kr per euro, og euro er prisen du faktisk betaler.</p>
+      <p class="ruler-note">Vil du ha lavest pris per måned, er tolv måneder riktig valg. Med 2 eller 3 skjermer kan flere i husholdningen se samtidig. Betaling, flere skjermer og vilkår står på siden om <a href="/iptv-norway-abonnement/">IPTV Norway abonnement</a>. Kronebeløpene er regnet ut fra en kurs på omtrent {SITE["nok_rate"]} kr per euro, og euro er prisen du faktisk betaler.</p>
     </div>
   </div>
 </section>
@@ -156,8 +156,8 @@ def no_pages():
   <div class="wrap measure">
     <div class="sec-head center">
       <span class="eyebrow">Skjermer</span>
-      <h2>IPTV Norge på skjermene du allerede har</h2>
-      <p>IPTV Norge skal fungere på det du har hjemme. En app fra enhetens egen appbutikk er nok, og vi sier hvilken som fungerer best på din modell.</p>
+      <h2>IPTV Norway på skjermene du allerede har</h2>
+      <p>IPTV Norway skal fungere på det du har hjemme. En app fra enhetens egen appbutikk er nok, og vi sier hvilken som fungerer best på din modell.</p>
     </div>
     <!--IMG:no-home-enheter-->
   </div>
@@ -175,8 +175,8 @@ def no_pages():
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Slik kommer du i gang</span>
-      <h2>Kom i gang med IPTV Norge i tre steg</h2>
-      <p>De fleste er i gang samme kveld. Det som tar tid i IPTV Norge er sjelden appen, men å finne riktig app til akkurat din TV.</p>
+      <h2>Kom i gang med IPTV Norway i tre steg</h2>
+      <p>De fleste er i gang samme kveld. Det som tar tid i IPTV Norway er sjelden appen, men å finne riktig app til akkurat din TV.</p>
     </div>
     <ol class="steps">
       <li><h3>Velg hvor lenge</h3><p>Alle pakker har samme innhold. Er du usikker, start med én måned.</p></li>
@@ -191,14 +191,14 @@ def no_pages():
 <section class="sec sec-night">
   <div class="wrap measure">
     <div class="sec-head center">
-      <span class="eyebrow">IPTV Norge og IPTV Nordic</span>
-      <h2>IPTV Norge, IPTV Nordic og IPTV Norway: hva er forskjellen?</h2>
+      <span class="eyebrow">IPTV Norway, Nordic og Norge</span>
+      <h2>IPTV Norway, IPTV Nordic og IPTV Norge: hva er forskjellen?</h2>
       <p>Ordene brukes om hverandre, men de betyr litt forskjellige ting. Slik pleier vi å forklare det.</p>
     </div>
     <ul>
-      <li><strong>IPTV Norge og norsk IPTV:</strong> norske kanaler med norsk TV-guide, for deg som hovedsakelig vil se norsk TV.</li>
+      <li><strong>IPTV Norway og norsk IPTV:</strong> norske kanaler med norsk TV-guide, for deg som hovedsakelig vil se norsk TV.</li>
       <li><strong>IPTV Nordic og Nordic IPTV:</strong> norske kanaler pluss kanaler fra Sverige, Danmark og Finland. Vi forklarer det på siden om <a href="/iptv-nordic/">IPTV Nordic</a>.</li>
-      <li><strong>IPTV Norway:</strong> det samme på engelsk. Den <a href="/en/" hreflang="en" lang="en">engelske siden</a> er skrevet for dem som søker slik.</li>
+      <li><strong>IPTV Norge:</strong> den norske skrivemåten av det samme. Du finner oss under begge navn, og den <a href="/en/" hreflang="en" lang="en">engelske siden</a> er skrevet for dem som søker på engelsk.</li>
     </ul>
     <p>Hos IPTV Norway One er begge med i samme pakke, så du trenger ikke å velge mellom norsk og nordisk IPTV.</p>
     <!--IMG:no-home-nordic-->
@@ -210,7 +210,7 @@ def no_pages():
     <div class="sec-head center">
       <span class="eyebrow">Sammenligning</span>
       <h2>IPTV sammenlignet med kabel-TV og strømming</h2>
-      <p>IPTV er ikke riktig for alle. Slik står IPTV Norge seg mot kabel-TV og strømmetjenester.</p>
+      <p>IPTV er ikke riktig for alle. Slik står IPTV Norway seg mot kabel-TV og strømmetjenester.</p>
     </div>
     <ul class="checks">
       <li>{{{{I:check}}}}<span>Ingen binding på 12 eller 24 måneder</span></li>
@@ -231,7 +231,7 @@ def no_pages():
       <tr><th scope="row">Fungerer på hytta</th><td class="us">Hvis det finnes internett</td><td><span class="no">{{{{I:x}}}}<span class="sr">Nei</span></span></td><td>Hvis det finnes internett</td></tr>
       <tr><th scope="row">Support</th><td class="us">WhatsApp, norsk eller engelsk</td><td>Kundeservice</td><td>E-post eller chat</td></tr>
     </tbody></table></div>
-    <p>Er nettet ditt tregt eller ujevnt, er kabel-TV eller parabol et tryggere valg. Under 10 Mbit/s til TV-en er ingen tjeneste riktig IPTV Norge for deg, uansett hvor god den er.</p>
+    <p>Er nettet ditt tregt eller ujevnt, er kabel-TV eller parabol et tryggere valg. Under 10 Mbit/s til TV-en er ingen tjeneste riktig IPTV Norway for deg, uansett hvor god den er.</p>
   </div>
 </section>
 
@@ -267,7 +267,7 @@ def no_pages():
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Spørsmål og svar</span>
-      <h2>Vanlige spørsmål om IPTV Norge</h2>
+      <h2>Vanlige spørsmål om IPTV Norway</h2>
     </div>
     {faq_html(faq)}
     <p style="margin-top:24px">Flere svar finner du under <a href="/vanlige-sporsmal/">vanlige spørsmål om IPTV</a>.</p>
@@ -276,7 +276,7 @@ def no_pages():
 
 <section class="band">
   <div class="wrap band-in">
-    <div><h2>Prøv IPTV Norge på din egen TV i kveld.</h2><p>Si hvilken TV du har, så sier vi hvilken pakke og app som passer.</p></div>
+    <div><h2>Prøv IPTV Norway på din egen TV i kveld.</h2><p>Si hvilken TV du har, så sier vi hvilken pakke og app som passer.</p></div>
     <a class="btn" data-track="buy_click" href="{{{{WA:Hei! Jeg har et spørsmål før jeg bestiller IPTV Norway One.}}}}" rel="noopener" target="_blank">{{{{I:chat}}}} Skriv til oss på WhatsApp</a>
   </div>
 </section>
@@ -291,32 +291,32 @@ def no_rest(faq):
         ("Hva skjer når perioden er over?", "Tjenesten stopper. Ingenting fornyes automatisk, og vi lagrer ikke kortopplysningene dine. Vil du fortsette, bestiller du på nytt."),
         ("Er prisene oppgitt med mva?", "Prisene på denne siden er det du betaler. Vi viser kroner med euro-beløpet ved siden av. Beløpet i kroner er veiledende og regnet ut fra en kurs på omtrent 11,7 kr per euro."),
     ]
-    save("no", "iptv-abonnement-norge", {"keyword": "iptv abonnement norge", "crumb": "IPTV-abonnement Norge", "alt": "iptv-subscription-norway",
-        "title": "IPTV Abonnement Norge: 12 pakker fra 189 kr | Norway One",
-        "desc": "IPTV abonnement Norge: 1, 3, 6 eller 12 måneder for 1, 2 eller 3 skjermer, fra 68 kr/mnd uten binding. Alle priser i kroner og euro samlet på én side.",
-        "og": "IPTV abonnement Norge: 12 pakker fra 189 kr",
-        "tldr": "Et IPTV-abonnement i Norge fra IPTV Norway One koster 189 kr for én måned og 819 kr for tolv måneder på én skjerm, som er 68 kr i måneden. To og tre skjermer koster mer. Ingenting fornyes automatisk.",
+    save("no", "iptv-norway-abonnement", {"keyword": "iptv norway abonnement", "crumb": "IPTV Norway abonnement", "alt": "iptv-subscription-norway",
+        "title": "IPTV Norway Abonnement: 12 pakker fra 189 kr | One",
+        "desc": "IPTV Norway abonnement: 1, 3, 6 eller 12 måneder for 1, 2 eller 3 skjermer, fra 68 kr/mnd uten binding. Alle priser i kroner og euro samlet på én side.",
+        "og": "IPTV Norway abonnement: 12 pakker fra 189 kr",
+        "tldr": "Et IPTV Norway abonnement fra IPTV Norway One koster 189 kr for én måned og 819 kr for tolv måneder på én skjerm, som er 68 kr i måneden. To og tre skjermer koster mer. Ingenting fornyes automatisk.",
         "schema": [{"@context": "https://schema.org", "@type": "Product", "name": "IPTV Norway One abonnement", "brand": {"@type": "Brand", "name": "IPTV Norway One"},
-                    "image": BASE + "/assets/og/no-iptv-abonnement-norge.png",
-                    "offers": {"@type": "AggregateOffer", "priceCurrency": "NOK", "lowPrice": str(NOK["1"]["1"]), "highPrice": str(NOK["3"]["12"]), "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/iptv-abonnement-norge/"}},
+                    "image": BASE + "/assets/og/no-iptv-norway-abonnement.png",
+                    "offers": {"@type": "AggregateOffer", "priceCurrency": "NOK", "lowPrice": str(NOK["1"]["1"]), "highPrice": str(NOK["3"]["12"]), "offerCount": "12", "availability": "https://schema.org/InStock", "url": BASE + "/iptv-norway-abonnement/"}},
                    faq_schema(plans_faq)]},
 f"""
-<section class="page-head"><div class="wrap"><span class="eyebrow">Priser</span><h1>IPTV abonnement Norge: pakker og priser</h1>
+<section class="page-head"><div class="wrap"><span class="eyebrow">Priser</span><h1>IPTV Norway abonnement: pakker og priser</h1>
 <p>Én tjeneste, fire lengder og tre skjermnivåer. Velg hvor mange skjermer som skal fungere samtidig, og så hvor lenge du vil abonnere.</p></div></section>
 <section class="sec sec-tight"><div class="wrap">
 <!--TOC-->
 <!--DEVICES-->
 {pricing_cards("no", T)}
 <div class="measure">
-<h2>Hva et IPTV abonnement Norge inneholder</h2>
-<p>Alle pakker for IPTV abonnement Norge har samme innhold: norske og nordiske kanaler i HD, 4K der kanalen sender det, TV-guide og hjelp med installasjonen på WhatsApp. Det eneste som varierer mellom pakkene er lengden og antall skjermer.</p>
+<h2>Hva et IPTV Norway abonnement inneholder</h2>
+<p>Alle pakker for IPTV Norway abonnement har samme innhold: norske og nordiske kanaler i HD, 4K der kanalen sender det, TV-guide og hjelp med installasjonen på WhatsApp. Det eneste som varierer mellom pakkene er lengden og antall skjermer.</p>
 <h2>Alle priser for 1, 2 og 3 skjermer</h2>
 <!--PRICETABLE-->
 <p>Euro er prisen du betaler, og kronebeløpet er veiledende ut fra omtrent {SITE["nok_rate"]} kr per euro. En lengre pakke gir alltid lavere pris per måned.</p>
 <h2>Slik betaler du for IPTV-abonnementet</h2>
 <p>Du bestiller på WhatsApp og får betalingsinformasjonen der. Vi tar imot Visa, Mastercard, Maestro, Apple Pay, Google Pay og PayPal, og fra andre EU-land også SEPA, iDEAL, Bancontact og giropay. Vi lagrer ikke kortopplysninger, og ingenting fornyes av seg selv.</p>
-<h2>Slik velger du IPTV abonnement Norge kan stole på</h2>
-<p>Når du sammenligner IPTV abonnement Norge tilbyr, se på bindingen, fornyelsen og supporten, ikke bare på antall kanaler. Våre pakker for IPTV abonnement Norge har ingen binding og ingen automatisk fornyelse. Vil du kjenne rettighetene dine som forbruker før du kjøper IPTV abonnement Norge selger, har <a href="https://www.forbrukerradet.no/" target="_blank" rel="noopener">Forbrukerrådet</a> gode veiledere.</p>
+<h2>Slik velger du et IPTV Norway abonnement du kan stole på</h2>
+<p>Når du sammenligner hva et IPTV Norway abonnement inneholder, se på bindingen, fornyelsen og supporten, ikke bare på antall kanaler. Våre pakker for IPTV Norway abonnement har ingen binding og ingen automatisk fornyelse. Vil du kjenne rettighetene dine som forbruker før du kjøper et IPTV Norway abonnement, har <a href="https://www.forbrukerradet.no/" target="_blank" rel="noopener">Forbrukerrådet</a> gode veiledere.</p>
 <h2>Hvilken pakke bør du velge?</h2>
 <ul><li><strong>Usikker så langt:</strong> én måned. Den fornyes ikke, så det er ingenting å si opp.</li><li><strong>Lavest pris per måned:</strong> tolv måneder.</li><li><strong>Flere som ser samtidig:</strong> velg nivået med 2 eller 3 skjermer.</li></ul>
 <p>Usikker på hva som passer TV-en din? Les først hvordan du <a href="/installer-iptv/">installerer IPTV</a>, eller gå tilbake til <a href="/">forsiden om IPTV Norge</a>. Vilkårene står i <a href="/vilkar/">vilkårene</a>.</p>
@@ -357,7 +357,7 @@ f"""
 <h2>Hva du kan forvente av kanalutvalget</h2>
 <p>De nordiske landene deler mye kultur, men hvert land har egne kringkastere og egne rettigheter. Derfor lover vi aldri en liste vi ikke kan bevise. Spør om kanalene du bryr deg om før du bestiller, og husk at utvalget kan endre seg over tid. For bakgrunn om hvordan de nordiske landene samarbeider, se <a href="https://www.norden.org/no" target="_blank" rel="noopener">nettsiden til Nordisk samarbeid</a>.</p>
 <h2>Hva Nordic IPTV koster</h2>
-<p>Pakkene starter på 189 kr for én måned, og tolv måneder på én skjerm er 819 kr, som er 68 kr i måneden. Alle priser for 1, 2 og 3 skjermer står på siden om <a href="/iptv-abonnement-norge/">IPTV abonnement Norge</a>.</p>
+<p>Pakkene starter på 189 kr for én måned, og tolv måneder på én skjerm er 819 kr, som er 68 kr i måneden. Alle priser for 1, 2 og 3 skjermer står på siden om <a href="/iptv-norway-abonnement/">IPTV Norway abonnement</a>.</p>
 <h2>Spørsmål om IPTV Nordic</h2>
 {faq_html(nordic_faq)}
 </div></div></section>
@@ -398,7 +398,7 @@ f"""
 <ul><li>Modellen på TV-en eller boksen, fra etiketten eller innstillingsmenyen.</li><li>Internett på minst 10 Mbit/s per skjerm.</li><li>Innloggingen din fra oss på WhatsApp.</li><li>En konto i enhetens appbutikk (Samsung, LG, Google, Amazon eller Apple).</li></ul>
 <h2>Hvor lang tid oppsettet tar</h2>
 <p>Med riktig app for modellen din blir de fleste ferdige i løpet av noen få minutter. Å finne riktig app tar lengre tid enn selve oppsettet, så si modellen din først, så peker vi deg til riktig en.</p>
-<p>Klar til å starte? Se <a href="/iptv-abonnement-norge/">pakker og priser</a>, les om de <a href="/iptv-nordic/">nordiske kanalene</a> eller gå tilbake til <a href="/">IPTV Norge</a>.</p>
+<p>Klar til å starte? Se <a href="/iptv-norway-abonnement/">pakker og priser</a>, les om de <a href="/iptv-nordic/">nordiske kanalene</a> eller gå tilbake til <a href="/">IPTV Norge</a>.</p>
 </div></div></section>
 <section class="band"><div class="wrap band-in"><div><h2>Står du fast på et steg?</h2><p>Send TV-modellen din, så sier vi hva du skal gjøre.</p></div>
 <a class="btn" data-track="buy_click" href="{{{{WA:Hei! Jeg trenger hjelp med å installere IPTV på TV-en min.}}}}" rel="noopener" target="_blank">{{{{I:chat}}}} Spør på WhatsApp</a></div></section>
@@ -412,7 +412,7 @@ f"""
 <section class="page-head"><div class="wrap"><span class="eyebrow">Spørsmål</span><h1>Vanlige spørsmål om IPTV</h1>
 <p>Spørsmålene vi får oftest, besvart rett fram.</p></div></section>
 <section class="sec sec-tight"><div class="wrap">{faq_html(faq)}
-<p style="margin-top:24px">Mangler noe? <a href="/kontakt/">Kontakt oss</a> eller se <a href="/iptv-abonnement-norge/">pakkene</a>, eller gå tilbake til <a href="/">IPTV Norge</a>.</p></div></section>
+<p style="margin-top:24px">Mangler noe? <a href="/kontakt/">Kontakt oss</a> eller se <a href="/iptv-norway-abonnement/">pakkene</a>, eller gå tilbake til <a href="/">IPTV Norge</a>.</p></div></section>
 """)
 
     save("no", "om-oss", {"crumb": "Om oss", "alt": "about",
@@ -443,7 +443,7 @@ f"""
 <p><a class="btn" data-track="buy_click" href="{{{{WA:Hei! Jeg har et spørsmål om IPTV Norway One.}}}}" rel="noopener" target="_blank">Skriv på WhatsApp</a></p>
 <div class="table-wrap"><table><tbody><tr><th scope="row">WhatsApp</th><td>{SITE["whatsapp_display"]}</td></tr><tr><th scope="row">Språk</th><td>Norsk og engelsk</td></tr></tbody></table></div>
 <h2>Ta gjerne med dette i første melding</h2>
-<p>Trenger du hjelp med installasjonen, skriv merke og modell på TV-en eller boksen, og send et bilde av skjermen hvis det vises en feilmelding. Gjelder det en bestilling, skriv hvilken pakke du vil ha. Prisene står på siden om <a href="/iptv-abonnement-norge/">IPTV abonnement Norge</a>. Oppsettet står i <a href="/installer-iptv/">installer IPTV</a>, og <a href="/vilkar/">vilkårene</a> forklarer hva som gjelder for en bestilling.</p>
+<p>Trenger du hjelp med installasjonen, skriv merke og modell på TV-en eller boksen, og send et bilde av skjermen hvis det vises en feilmelding. Gjelder det en bestilling, skriv hvilken pakke du vil ha. Prisene står på siden om <a href="/iptv-norway-abonnement/">IPTV Norway abonnement</a>. Oppsettet står i <a href="/installer-iptv/">installer IPTV</a>, og <a href="/vilkar/">vilkårene</a> forklarer hva som gjelder for en bestilling.</p>
 <h2>Foretrekker du et skjema?</h2>
 <p>Bruk kontaktskjemaet nederst på siden, så svarer vi til adressen du oppgir.</p>
 </div></div>
@@ -461,7 +461,7 @@ f"""
 <h2>Support og problemer</h2><p>Hvis noe ikke fungerer, skriv til oss på WhatsApp med et bilde av skjermen, så går vi gjennom nett, app og innstillinger sammen med deg.</p>
 <h2>Dine rettigheter</h2><p>Dine lovbestemte rettigheter som forbruker etter norsk rett påvirkes ikke av disse vilkårene.</p>
 <h2>Bruk av tjenesten</h2><p>Tjenesten er til privat bruk i din husholdning. Du er selv ansvarlig for hvordan du bruker den og for å følge lovene som gjelder for deg.</p>
-<p>Spørsmål? <a href="/kontakt/">Kontakt oss</a>. Se også <a href="/personvern/">personvernerklæringen</a> og <a href="/iptv-abonnement-norge/">pakkene</a>.</p>
+<p>Spørsmål? <a href="/kontakt/">Kontakt oss</a>. Se også <a href="/personvern/">personvernerklæringen</a> og <a href="/iptv-norway-abonnement/">pakkene</a>.</p>
 </div></div>
 """)
     save("no", "personvern", {"crumb": "Personvern", "alt": "privacy",
@@ -490,7 +490,7 @@ f"""
 """)
     save("no", "404", {"crumb": "Ikke funnet", "robots": "noindex, follow", "title": "Siden finnes ikke | IPTV Norway One", "desc": "Denne siden finnes ikke. Gå tilbake til forsiden eller se IPTV-pakkene."},
 f"""
-<section class="page-head"><div class="wrap"><h1>Siden finnes ikke</h1><p>Siden du leter etter finnes ikke. Gå til <a href="/">forsiden</a> eller se <a href="/iptv-abonnement-norge/">pakkene</a>.</p></div></section>
+<section class="page-head"><div class="wrap"><h1>Siden finnes ikke</h1><p>Siden du leter etter finnes ikke. Gå til <a href="/">forsiden</a> eller se <a href="/iptv-norway-abonnement/">pakkene</a>.</p></div></section>
 """)
 
 

@@ -347,7 +347,7 @@ def en_rest(faq):
         ("What happens when the period is over?", "The service stops. Nothing renews automatically, and we do not store your card details. If you want to continue, you order again."),
         ("Are prices shown with VAT?", "The prices on this page are the prices you pay. We show euro with the Norwegian krone amount beside it. The krone amount is guidance based on a rate of about 11.7 NOK per euro."),
     ]
-    save("en", "iptv-subscription-norway", {"keyword": "iptv subscription norway", "crumb": "IPTV subscription Norway", "alt": "iptv-abonnement-norge",
+    save("en", "iptv-subscription-norway", {"keyword": "iptv subscription norway", "crumb": "IPTV subscription Norway", "alt": "iptv-norway-abonnement",
         "title": "IPTV Subscription Norway: 12 Plans from €15.99 | One",
         "desc": "IPTV subscription Norway: 1, 3, 6 or 12 months for 1, 2 or 3 screens, from €5.83/month with no contract. All prices in euro and kroner on one page.",
         "og": "IPTV subscription Norway: 12 plans from €15.99",
