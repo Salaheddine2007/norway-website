@@ -50,6 +50,8 @@ def main():
         fail(f"slug {a.slug} already exists")
     body = open(a.article, encoding="utf-8").read().strip()
     body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
+    # attribute values in single quotes -> double quotes, so the link checks below and tools/qa.py see every href
+    body = re.sub(r"<[^>]*>", lambda m: re.sub(r"(\s[\w:-]+)='([^'\"]*)'", lambda a: a.group(1) + '="' + a.group(2) + '"', m.group(0)), body)
     if re.search(r"<h1[\s>]", body, re.I):
         fail("article body must not contain <h1> (pass it with --h1)")
     words = len(re.sub(r"<[^>]+>", " ", body).split())

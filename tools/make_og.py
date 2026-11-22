@@ -73,8 +73,11 @@ def build(out_dir, items):
             continue
         if have_pil:
             card(path, title)
-        elif os.path.exists(os.path.join(out_dir, "home.png")):
-            shutil.copy(os.path.join(out_dir, "home.png"), path)
-            shutil.copy(os.path.join(out_dir, "home.webp"), path[:-4] + ".webp")
+        else:
+            # no Pillow (bare runner): reuse an existing card so the page never points at a missing image
+            fb = next((n for n in ("no-home", "en-home", "home") if os.path.exists(os.path.join(out_dir, n + ".png"))), None)
+            if fb:
+                shutil.copy(os.path.join(out_dir, fb + ".png"), path)
+                shutil.copy(os.path.join(out_dir, fb + ".webp"), path[:-4] + ".webp")
         made += 1
     return made
