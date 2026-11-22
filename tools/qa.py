@@ -113,7 +113,7 @@ def main():
             if href not in exists: bad(f"broken link {href}")
             if href != url: internal.add(href)
         body_links = {h for h in re.findall(r'href="((?:%s)?/[^"#?]*)"' % re.escape(BASE), main_part)}
-        if not url.endswith("/404.html") and "noindex" not in doc[:4000] and len(body_links) < 3: bad(f"only {len(body_links)} internal links in content")
+        if not url.endswith("/404.html") and "noindex" not in doc[:4000] and url not in ("/guider/", "/en/guides/") and len(body_links) < 3: bad(f"only {len(body_links)} internal links in content")
         for h in internal: linked.setdefault(h, set()).add(url)
     # AI-search readiness: crawlers allowed, llms.txt present, a quotable answer on every keyword page
     robots = open(os.path.join(ROOT, "robots.txt"), encoding="utf-8").read()

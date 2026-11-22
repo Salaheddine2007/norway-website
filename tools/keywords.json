@@ -1,0 +1,1018 @@
+[
+ {
+  "keyword": "nordisk iptv",
+  "slug": "nordisk-iptv",
+  "volume": 260,
+  "kd": 14,
+  "intent": "Informational",
+  "lang": "no"
+ },
+ {
+  "keyword": "best iptv provider",
+  "slug": "best-iptv-provider",
+  "volume": 140,
+  "kd": 25,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv providers",
+  "slug": "iptv-providers",
+  "volume": 140,
+  "kd": 27,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "chromecast iptv",
+  "slug": "chromecast-iptv",
+  "volume": 140,
+  "kd": 28,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "4k iptv",
+  "slug": "4k-iptv",
+  "volume": 110,
+  "kd": 12,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv subscription",
+  "slug": "iptv-subscription",
+  "volume": 90,
+  "kd": 22,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv norden",
+  "slug": "iptv-norden",
+  "volume": 70,
+  "kd": 4,
+  "intent": "Informational",
+  "lang": "no"
+ },
+ {
+  "keyword": "iptv fotball",
+  "slug": "iptv-fotball",
+  "volume": 70,
+  "kd": 14,
+  "intent": "Informational",
+  "lang": "no"
+ },
+ {
+  "keyword": "iptv pris",
+  "slug": "iptv-pris",
+  "volume": 50,
+  "kd": 3,
+  "intent": "Informational",
+  "lang": "no"
+ },
+ {
+  "keyword": "iptv for pc",
+  "slug": "iptv-for-pc",
+  "volume": 50,
+  "kd": 36,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app lg",
+  "slug": "best-iptv-app-lg",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app windows",
+  "slug": "best-iptv-app-windows",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "buy iptv",
+  "slug": "buy-iptv",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "how does iptv work",
+  "slug": "how-does-iptv-work",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv live",
+  "slug": "iptv-live",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv on chromebook",
+  "slug": "iptv-on-chromebook",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv online",
+  "slug": "iptv-online",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "lg iptv app",
+  "slug": "lg-iptv-app",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "samsung smart tv iptv app",
+  "slug": "samsung-smart-tv-iptv-app",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "smart tv iptv",
+  "slug": "smart-tv-iptv",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "watch iptv on mac",
+  "slug": "watch-iptv-on-mac",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "watch iptv on pc",
+  "slug": "watch-iptv-on-pc",
+  "volume": 30,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv europe",
+  "slug": "iptv-europe",
+  "volume": 30,
+  "kd": 2,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv guide",
+  "slug": "iptv-guide",
+  "volume": 30,
+  "kd": 7,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv provider europe",
+  "slug": "best-iptv-provider-europe",
+  "volume": 30,
+  "kd": 9,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv scandinavia",
+  "slug": "iptv-scandinavia",
+  "volume": 30,
+  "kd": 9,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "home iptv",
+  "slug": "home-iptv",
+  "volume": 30,
+  "kd": 12,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv tv guide",
+  "slug": "iptv-tv-guide",
+  "volume": 30,
+  "kd": 20,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "lg tv iptv",
+  "slug": "lg-tv-iptv",
+  "volume": 30,
+  "kd": 25,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv ipad",
+  "slug": "best-iptv-ipad",
+  "volume": 30,
+  "kd": 26,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv router setup",
+  "slug": "iptv-router-setup",
+  "volume": 30,
+  "kd": 26,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv vlc",
+  "slug": "iptv-vlc",
+  "volume": 30,
+  "kd": 29,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app pc",
+  "slug": "best-iptv-app-pc",
+  "volume": 30,
+  "kd": 31,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv apple tv 4k",
+  "slug": "iptv-apple-tv-4k",
+  "volume": 30,
+  "kd": 31,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app for iphone",
+  "slug": "best-iptv-app-for-iphone",
+  "volume": 30,
+  "kd": 33,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv for windows",
+  "slug": "best-iptv-for-windows",
+  "volume": 30,
+  "kd": 36,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app pc",
+  "slug": "iptv-app-pc",
+  "volume": 30,
+  "kd": 36,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "beste iptv app android tv",
+  "slug": "beste-iptv-app-android-tv",
+  "volume": 30,
+  "kd": 37,
+  "intent": "Informational",
+  "lang": "no"
+ },
+ {
+  "keyword": "iptv tv",
+  "slug": "iptv-tv",
+  "volume": 30,
+  "kd": 37,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv android",
+  "slug": "best-iptv-android",
+  "volume": 30,
+  "kd": 39,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv iphone",
+  "slug": "iptv-iphone",
+  "volume": 30,
+  "kd": 40,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv windows",
+  "slug": "iptv-windows",
+  "volume": 30,
+  "kd": 40,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "app iptv apple tv",
+  "slug": "app-iptv-apple-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "app iptv iphone",
+  "slug": "app-iptv-iphone",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "app iptv lg smart tv",
+  "slug": "app-iptv-lg-smart-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "app smart tv iptv",
+  "slug": "app-smart-tv-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best and cheapest iptv",
+  "slug": "best-and-cheapest-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app android",
+  "slug": "best-iptv-app-android",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app apple",
+  "slug": "best-iptv-app-apple",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app for apple tv 4k",
+  "slug": "best-iptv-app-for-apple-tv-4k",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app for chromecast",
+  "slug": "best-iptv-app-for-chromecast",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app for samsung smart tv",
+  "slug": "best-iptv-app-for-samsung-smart-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app ios",
+  "slug": "best-iptv-app-ios",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app nvidia shield",
+  "slug": "best-iptv-app-nvidia-shield",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app samsung",
+  "slug": "best-iptv-app-samsung",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv chromecast",
+  "slug": "best-iptv-chromecast",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv europe",
+  "slug": "best-iptv-europe",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv football",
+  "slug": "best-iptv-football",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv for apple tv",
+  "slug": "best-iptv-for-apple-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv for sports",
+  "slug": "best-iptv-for-sports",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv nordic",
+  "slug": "best-iptv-nordic",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv samsung",
+  "slug": "best-iptv-samsung",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv subscription",
+  "slug": "best-iptv-subscription",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "best smart tv for iptv",
+  "slug": "best-smart-tv-for-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "billig iptv",
+  "slug": "billig-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "no"
+ },
+ {
+  "keyword": "buy iptv channels",
+  "slug": "buy-iptv-channels",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "buy iptv subscription",
+  "slug": "buy-iptv-subscription",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "cheap iptv subscription",
+  "slug": "cheap-iptv-subscription",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "chromecast iptv app",
+  "slug": "chromecast-iptv-app",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "digital iptv",
+  "slug": "digital-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "epg iptv",
+  "slug": "epg-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "google iptv",
+  "slug": "google-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "hd iptv",
+  "slug": "hd-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "how to watch iptv",
+  "slug": "how-to-watch-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv android tv",
+  "slug": "iptv-android-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app android",
+  "slug": "iptv-app-android",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app android tv",
+  "slug": "iptv-app-android-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app apple",
+  "slug": "iptv-app-apple",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app ipad",
+  "slug": "iptv-app-ipad",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app samsung tv",
+  "slug": "iptv-app-samsung-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv apple",
+  "slug": "iptv-apple",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv best price",
+  "slug": "iptv-best-price",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv channels",
+  "slug": "iptv-channels",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv chrome",
+  "slug": "iptv-chrome",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv chromecast iphone",
+  "slug": "iptv-chromecast-iphone",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv firestick",
+  "slug": "iptv-firestick",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv for mag",
+  "slug": "iptv-for-mag",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv google chromecast",
+  "slug": "iptv-google-chromecast",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv ipad",
+  "slug": "iptv-ipad",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv lg",
+  "slug": "iptv-lg",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv macbook",
+  "slug": "iptv-macbook",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv nordic channel",
+  "slug": "iptv-nordic-channel",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv norske kanaler",
+  "slug": "iptv-norske-kanaler",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "no"
+ },
+ {
+  "keyword": "iptv online stream",
+  "slug": "iptv-online-stream",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv på samsung tv",
+  "slug": "iptv-pa-samsung-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "no"
+ },
+ {
+  "keyword": "iptv router",
+  "slug": "iptv-router",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv samsung",
+  "slug": "iptv-samsung",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv samsung smart tv",
+  "slug": "iptv-samsung-smart-tv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv scandinavian",
+  "slug": "iptv-scandinavian",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv sport",
+  "slug": "iptv-sport",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv sports",
+  "slug": "iptv-sports",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv sports channels",
+  "slug": "iptv-sports-channels",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv streaming",
+  "slug": "iptv-streaming",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv uhd",
+  "slug": "iptv-uhd",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv watch tv online",
+  "slug": "iptv-watch-tv-online",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "kjøp iptv",
+  "slug": "kjp-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "no"
+ },
+ {
+  "keyword": "lg tv iptv app",
+  "slug": "lg-tv-iptv-app",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "nvidia shield iptv",
+  "slug": "nvidia-shield-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "philips iptv",
+  "slug": "philips-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "shield iptv",
+  "slug": "shield-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "smart tv iptv lg",
+  "slug": "smart-tv-iptv-lg",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "tcl iptv",
+  "slug": "tcl-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "tcl iptv app",
+  "slug": "tcl-iptv-app",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "vlc iptv android",
+  "slug": "vlc-iptv-android",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "watch iptv on vlc",
+  "slug": "watch-iptv-on-vlc",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "watch iptv on windows",
+  "slug": "watch-iptv-on-windows",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "watch iptv online",
+  "slug": "watch-iptv-online",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "xiaomi iptv",
+  "slug": "xiaomi-iptv",
+  "volume": 20,
+  "kd": 0,
+  "intent": null,
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv app",
+  "slug": "iptv-app",
+  "volume": 390,
+  "kd": 55,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app",
+  "slug": "best-iptv-app",
+  "volume": 170,
+  "kd": 50,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "samsung iptv app",
+  "slug": "samsung-iptv-app",
+  "volume": 140,
+  "kd": 41,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "best iptv app for apple tv",
+  "slug": "best-iptv-app-for-apple-tv",
+  "volume": 140,
+  "kd": 48,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv apple tv",
+  "slug": "iptv-apple-tv",
+  "volume": 110,
+  "kd": 51,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv live tv",
+  "slug": "iptv-live-tv",
+  "volume": 30,
+  "kd": 48,
+  "intent": "Commercial",
+  "lang": "en"
+ },
+ {
+  "keyword": "mac iptv",
+  "slug": "mac-iptv",
+  "volume": 30,
+  "kd": 50,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "android iptv",
+  "slug": "android-iptv",
+  "volume": 30,
+  "kd": 53,
+  "intent": "Informational",
+  "lang": "en"
+ },
+ {
+  "keyword": "iptv stream",
+  "slug": "iptv-stream",
+  "volume": 30,
+  "kd": 53,
+  "intent": "Informational",
+  "lang": "en"
+ }
+]
