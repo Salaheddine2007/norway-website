@@ -448,6 +448,12 @@ f"""
 <p>The Nordic countries share a lot of culture, but each one has its own broadcasters and its own rights. That is why we never promise a list we cannot prove. Ask about the channels you care about before you order, and remember that the line-up can change over time. For background on how the Nordic countries cooperate, see the <a href="https://www.norden.org/en" target="_blank" rel="noopener">Nordic cooperation website</a>.</p>
 <h2>What Nordic IPTV costs</h2>
 <p>The plans start at €15.99 for one month, and twelve months on one screen is €69.99, which is €5.83 a month. All prices for 1, 2 and 3 screens are on the <a href="/en/iptv-subscription-norway/">IPTV subscription Norway page</a>.</p>
+<h2>Language, subtitles and the TV guide</h2>
+<p>Each channel broadcasts in its own language, so Swedish channels are in Swedish, Danish ones in Danish and Finnish ones in Finnish. Whether a programme has subtitles depends on the channel and the programme, not on the app. The TV guide (EPG) shows titles and times for each channel, and if a time or title looks wrong, tell us which channel it is and we check it with you.</p>
+<h2>How many screens does a Nordic household need?</h2>
+<p>One screen is enough if one person watches at a time. Choose two screens if two people want to watch different channels at the same time, for example the news in one room and a match in another, and three if the whole family has their own screen. The price follows the number of screens: for twelve months it is €69.99 for one screen, €119.99 for two and €169.99 for three, and the plan content is the same.</p>
+<h2>A short checklist before you order IPTV Nordic</h2>
+<ul><li>Write down the model of your TV or box.</li><li>Measure your internet speed on that device.</li><li>List the channels you care about and ask us about them.</li><li>Pick one month first if you are unsure.</li><li>Read our <a href="/en/terms/">terms</a> so you know what applies.</li></ul>
 <h2>Questions about IPTV Nordic</h2>
 {faq_html(nordic_faq)}
 </div></div></section>

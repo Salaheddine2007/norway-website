@@ -121,6 +121,12 @@ f"""
 <h2>Hva det koster</h2>
 <p>Pakkene starter på 189 kr for én måned, og tolv måneder på én skjerm er 819 kr, altså 68 kr i måneden. Alle priser for 1, 2 og 3 skjermer står på siden om <a href="/iptv-norway-abonnement/">IPTV Norway abonnement</a>. Vil du også ha kanaler fra resten av Norden, les om <a href="/iptv-nordic/">IPTV Nordic</a>. Eller gå tilbake til <a href="/">IPTV Norway</a>.</p>
 <p>Om du lurer på dine rettigheter som forbruker, har <a href="https://www.forbrukerradet.no/" target="_blank" rel="noopener">Forbrukerrådet</a> gode veiledere.</p>
+<h2>Hvor mange skjermer trenger du?</h2>
+<p>Én skjerm er nok hvis én person ser om gangen. Velg to skjermer hvis to vil se ulike kanaler samtidig, og tre hvis hele familien har hver sin skjerm. For tolv måneder er prisen 819 kr for én skjerm, 1 399 kr for to og 1 989 kr for tre, og innholdet er det samme i alle.</p>
+<h2>På hytta og på reise</h2>
+<p>Så lenge du har internett kan du logge inn fra de samme enhetene som hjemme. Hvor godt det fungerer avhenger av nettet der du er, og enkelte kanaler kan ha begrensninger på grunn av rettigheter, så spør oss om kanalene du vil se før du reiser.</p>
+<h2>Sjekkliste før du bestiller</h2>
+<ul><li>Skriv ned modellen på TV-en eller boksen.</li><li>Mål internetthastigheten på den enheten.</li><li>Lag en liste over kanalene du bryr deg om.</li><li>Start med én måned hvis du er usikker.</li><li>Les <a href="/vilkar/">vilkårene</a> så du vet hva som gjelder.</li></ul>
 <h2>Spørsmål om norsk IPTV</h2>
 {faq_html(q_nn)}
 </div></div></section>
