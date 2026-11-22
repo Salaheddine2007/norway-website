@@ -1,0 +1,95 @@
+{
+ "base": "https://iptvnorwayone.com",
+ "name": "IPTV Norway One",
+ "site_id": "iptvnorwayone",
+ "whatsapp": "32497063717",
+ "whatsapp_display": "+32 497 06 37 17",
+ "indexnow_key": "607f175d73e1bab6d310c96236c2232f",
+ "min_words": 2000,
+ "launched": "2026-11-22",
+ "nok_rate": 11.7,
+ "author": {
+  "type": "Organization",
+  "name": "The IPTV Norway One support team",
+  "bio_en": "The guides are written by the support team at IPTV Norway One, the same people who answer on WhatsApp. Settings and app features are checked against the manufacturers' own help pages, and we correct the text when something changes.",
+  "bio_no": "Guidene skrives av supporten hos IPTV Norway One, de samme som svarer på WhatsApp. Innstillinger og appfunksjoner kontrolleres mot produsentenes egne hjelpesider, og vi retter teksten når noe endrer seg."
+ },
+ "prices_eur": {
+  "1": {
+   "1": 15.99,
+   "3": 30.99,
+   "6": 45.99,
+   "12": 69.99
+  },
+  "2": {
+   "1": 23.99,
+   "3": 49.99,
+   "6": 69.99,
+   "12": 119.99
+  },
+  "3": {
+   "1": 32.99,
+   "3": 69.99,
+   "6": 94.99,
+   "12": 169.99
+  }
+ },
+ "prices_nok": {
+  "1": {
+   "1": 189,
+   "3": 359,
+   "6": 539,
+   "12": 819
+  },
+  "2": {
+   "1": 279,
+   "3": 579,
+   "6": 819,
+   "12": 1399
+  },
+  "3": {
+   "1": 389,
+   "3": 819,
+   "6": 1109,
+   "12": 1989
+  }
+ },
+ "facts": [
+  [
+   "Price (1 screen)",
+   "€15.99 for 1 month, €30.99 for 3 months, €45.99 for 6 months, €69.99 for 12 months (€5.83/month). Krone amounts are guidance at about 11.7 NOK per euro"
+  ],
+  [
+   "Screens",
+   "1, 2 or 3 screens at the same time. 2 screens: €23.99, €49.99, €69.99 or €119.99. 3 screens: €32.99, €69.99, €94.99 or €169.99 (1, 3, 6 or 12 months)"
+  ],
+  [
+   "Contract",
+   "None. The subscription does not renew automatically"
+  ],
+  [
+   "Channels",
+   "Norwegian channels plus Sweden, Denmark and Finland. The line-up can change over time"
+  ],
+  [
+   "Picture",
+   "HD, and 4K where the channel broadcasts in 4K"
+  ],
+  [
+   "Devices",
+   "Samsung and LG Smart TV, Android TV, Google TV, Fire TV Stick, Apple TV, iPhone, iPad, Android, Windows, Mac and MAG box"
+  ],
+  [
+   "Internet speed",
+   "At least 10 Mbit/s per screen for HD, 25 Mbit/s for 4K"
+  ],
+  [
+   "Ordering and support",
+   "Via WhatsApp, in English and Norwegian"
+  ],
+  [
+   "Payment",
+   "Visa, Mastercard, Maestro, Apple Pay, Google Pay, PayPal; from other EU countries also SEPA, iDEAL, Bancontact, giropay"
+  ]
+ ]
+}
