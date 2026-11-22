@@ -68,6 +68,9 @@ def rank_math(url, doc, meta, bad):
     if 'class="toc"' not in main_part: bad("RM: no table of contents")
     return density, count, len(words)
 
+POLICY = json.load(open(os.path.join(ROOT, "tools", "keyword_policy.json"), encoding="utf-8"))
+DENY = re.compile(POLICY["deny_regex"], re.I)
+
 def main():
     problems, linked, exists, ph = [], {}, set(), []
     all_pages = {u: d for u, d in pages() if 'http-equiv="refresh"' not in d}  # skip redirect stubs
@@ -95,6 +98,10 @@ def main():
             try: json.loads(block)
             except ValueError as e: bad(f"JSON-LD invalid: {e}")
         main_part = doc[doc.find("<main"):doc.find("</main>")]
+        heads_txt = " ".join(re.sub(r"<[^>]+>", " ", h) for h in re.findall(r"<h[1-3][^>]*>(.*?)</h[1-3]>", main_part, re.S))
+        for label, txt in (("title", title), ("description", desc), ("headings", heads_txt), ("url", url), ("focus keyword", src.get(url, {}).get("keyword", ""))):
+            m = DENY.search(txt)
+            if m: bad(f"keyword policy: '{m.group(0)}' in {label} (commercial-intent keywords only)")
         text = re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>", " ", main_part, flags=re.S))
         for m in BANNED.finditer(text): bad(f"banned phrase: {m.group(0)}")
         ph += [(url, p) for p in re.findall(r"\[PLACEHOLDER:[^\]]*\]", doc)]

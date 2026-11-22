@@ -259,6 +259,7 @@ def no_pages():
       <h2>Guider fra supporten vår</h2>
       <p>Installasjon, apper og feilsøking, skrevet ut fra spørsmålene vi får.</p>
     </div>
+    <ul class="checks"><li>{{{{I:check}}}}<span><a href="/beste-iptv-norge/">Beste IPTV Norge: 7 sjekkpunkter før du velger</a></span></li><li>{{{{I:check}}}}<span><a href="/norsk-iptv/">Norsk IPTV: norske kanaler på TV, mobil og PC</a></span></li><li>{{{{I:check}}}}<span><a href="/iptv-nordic/">IPTV Nordic: fire land med TV i én app</a></span></li><li>{{{{I:check}}}}<span><a href="/installer-iptv/">Installer IPTV på smart-TV, Fire TV og mobil</a></span></li></ul>
     <p><a href="/guider/">Alle IPTV-guider for Norge</a></p>
   </div>
 </section>
