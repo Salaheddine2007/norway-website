@@ -14,6 +14,35 @@ def save(lang, slug, meta, body):
     d = os.path.join(ROOT, "tools", "pages", lang); os.makedirs(d, exist_ok=True)
     open(os.path.join(d, (slug or "index") + ".html"), "w", encoding="utf-8", newline="\n").write(hdr(meta) + body.strip() + "\n")
 
+
+SLIDER_TXT = {
+    "en": ("On your screen", "Norwegian TV brands and big-screen titles",
+           "A taste of what Norwegian viewers look for. Ask us about a specific channel before you order.",
+           "Channel names and logos belong to their owners and are shown only to identify the channels. IPTV Norway One has no affiliation with them, and the line-up can change over time. Posters are shown for illustration."),
+    "no": ("På skjermen din", "Norske TV-merker og store titler",
+           "Et utvalg av det norske seere leter etter. Spør oss om en bestemt kanal før du bestiller.",
+           "Kanalnavn og logoer tilhører eierne og vises bare for å identifisere kanalene. IPTV Norway One har ingen tilknytning til dem, og kanalutvalget kan endre seg over tid. Plakatene vises som illustrasjon."),
+}
+LOGOS = [("nrk.svg", "NRK", 614, 220), ("tv2.webp", "TV 2", 108, 140), ("tvnorge.svg", "TVNorge", 512, 512), ("sportkanalen.webp", "Sportkanalen", 104, 140), ("visjon-norge.webp", "TV Visjon Norge", 192, 140)]
+POSTERS = ["p-last-kingdom", "p-sonic", "p-black-adam", "p-violent-night", "p-pathaan"]
+
+def slider_html(lang):
+    eyebrow, h2, p, note = SLIDER_TXT[lang]
+    def lis(items, hidden):
+        return "".join(items(hidden))
+    def logo_items(hidden):
+        for f, name, w, h in LOGOS:
+            yield f'<li{" aria-hidden=\"true\"" if hidden else ""}><img src="/assets/channels/{f}" width="{w}" height="{h}" alt="{"" if hidden else name}" loading="lazy" decoding="async"></li>'
+    def poster_items(hidden):
+        for f in POSTERS:
+            yield f'<li{" aria-hidden=\"true\"" if hidden else ""}><img src="/assets/posters/{f}.webp" width="520" height="293" alt="" loading="lazy" decoding="async"></li>'
+    def track(cls, items):
+        half = lis(items, False) + lis(items, True)
+        return f'<div class="marq{cls}"><ul class="marq-track {"logos" if items is logo_items else "posters-row"}">{half}{lis(items, True)}{lis(items, True)}</ul></div>'
+    return (f'<section class="sec sec-tight sl-sec" aria-labelledby="sl-h"><div class="wrap"><div class="sec-head center"><span class="eyebrow">{eyebrow}</span>'
+            f'<h2 id="sl-h">{h2}</h2><p>{p}</p></div></div>{track("", logo_items)}{track(" marq-rev", poster_items)}'
+            f'<p class="wrap measure sl-note">{note}</p></section>')
+
 def faq_schema(items):
     return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in items]}
@@ -189,6 +218,8 @@ def en_pages():
     <p class="price-note" style="color:var(--on-night-muted)">The channel line-up can change over time.</p>
   </div>
 </section>
+
+{slider_html("en")}
 
 <section class="sec sec-tight" id="pricing">
   <div class="wrap">

@@ -136,6 +136,8 @@ def no_pages():
   </div>
 </section>
 
+{slider_html("no")}
+
 <section class="sec sec-tight" id="priser">
   <div class="wrap">
     <div class="sec-head">

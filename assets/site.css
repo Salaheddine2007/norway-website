@@ -510,3 +510,19 @@ html, body { overflow-x: clip; }
 
 @media (max-width: 480px) { .nav a:nth-child(1) { display: none; } .lang-sw { padding: 0 10px; } }
 @media (max-width: 400px) { .top-in { gap: 6px; } .brand .mark { width: 30px; height: 30px; } .brand .wm { font-size: .92em; } .nav { gap: 2px; } .nav a:not(.btn) { padding: 12px 8px; } }
+
+/* Marquee sliders: channel brands + posters (decorative, pause on hover/focus, static when reduced motion is on) */
+.sl-sec { overflow: hidden; }
+.marq { overflow: hidden; padding: 8px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); }
+.marq-track { display: flex; gap: 16px; width: max-content; margin: 0; padding: 0; list-style: none; animation: marq 55s linear infinite; will-change: transform; }
+.marq-rev .marq-track { animation-direction: reverse; animation-duration: 70s; }
+.marq:hover .marq-track, .marq:focus-within .marq-track { animation-play-state: paused; }
+@keyframes marq { to { transform: translateX(-50%); } }
+.logos li { flex: none; display: flex; align-items: center; justify-content: center; height: 88px; min-width: 150px; padding: 14px 24px; border-radius: 16px; background: #fff; box-shadow: 0 10px 26px -14px rgba(0,0,0,.6); }
+.logos img { height: 100%; width: auto; max-width: 150px; object-fit: contain; display: block; }
+.posters-row li { flex: none; width: 260px; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; box-shadow: 0 14px 30px -16px rgba(0,0,0,.8); border: 1px solid var(--border); }
+.posters-row img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sl-note { margin-top: 18px; font-size: .86rem; color: var(--muted); text-align: center; }
+.marq + .marq { margin-top: 14px; }
+@media (max-width: 640px) { .logos li { height: 72px; min-width: 120px; padding: 12px 18px; } .posters-row li { width: 210px; } }
+@media (prefers-reduced-motion: reduce) { .marq { overflow-x: auto; -webkit-mask-image: none; mask-image: none; } .marq-track { animation: none; } .marq-track [aria-hidden="true"] { display: none; } }
