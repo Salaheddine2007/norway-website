@@ -23,7 +23,7 @@ SLIDER_TXT = {
            "Et utvalg av det norske seere leter etter. Spør oss om en bestemt kanal før du bestiller.",
            "Kanalnavn og logoer tilhører eierne og vises bare for å identifisere kanalene. IPTV Norway One har ingen tilknytning til dem, og kanalutvalget kan endre seg over tid. Plakatene vises som illustrasjon."),
 }
-LOGOS = [("nrk.svg", "NRK", 614, 220), ("tv2.webp", "TV 2", 108, 140), ("tvnorge.svg", "TVNorge", 512, 512), ("sportkanalen.webp", "Sportkanalen", 104, 140), ("visjon-norge.webp", "TV Visjon Norge", 192, 140)]
+LOGOS = [("nrk.svg", "NRK", 614, 220), ("tv2.webp", "TV 2", 108, 140), ("tv2-nyhetene.webp", "TV 2 Nyhetene", 581, 140), ("tv2-direkte.webp", "TV 2 Direkte", 574, 140), ("tv2-sport.webp", "TV 2 Sport", 409, 140), ("tvnorge.svg", "TVNorge", 512, 512), ("tv3.webp", "TV3", 140, 140), ("vsport1.webp", "V Sport 1", 126, 140), ("eurosport.webp", "Eurosport", 604, 140), ("sportkanalen.webp", "Sportkanalen", 104, 140), ("visjon-norge.webp", "TV Visjon Norge", 192, 140)]
 POSTERS = ["p-last-kingdom", "p-sonic", "p-black-adam", "p-violent-night", "p-pathaan"]
 
 def slider_html(lang):
